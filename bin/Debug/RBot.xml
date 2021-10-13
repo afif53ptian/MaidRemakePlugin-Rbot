@@ -1,0 +1,3611 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RBot</name>
+    </assembly>
+    <members>
+        <member name="F:RBot.AboutForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.AboutForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.AboutForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.AS3InjectorForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.AS3InjectorForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.AS3InjectorForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.AutoReloginForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.AutoReloginForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.AutoReloginForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.BotBuilderForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.BotBuilderForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.BotBuilderForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.ConsoleForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.ConsoleForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.ConsoleForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.CosmeticForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.CosmeticForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.CosmeticForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:RBot.Factions.Faction.ID">
+            <summary>
+            The ID of the faction.
+            </summary>
+        </member>
+        <member name="P:RBot.Factions.Faction.Name">
+            <summary>
+            The in-game name of the faction.
+            </summary>
+        </member>
+        <member name="P:RBot.Factions.Faction.Rank">
+            <summary>
+            The rank that the player has achieved in this faction.
+            </summary>
+        </member>
+        <member name="P:RBot.Factions.Faction.TotalRep">
+            <summary>
+            The total amount of rep the player has for this faction.
+            </summary>
+        </member>
+        <member name="P:RBot.Factions.Faction.Rep">
+            <summary>
+            The amount of rep the player has for their current rank.
+            </summary>
+        </member>
+        <member name="P:RBot.Factions.Faction.RequiredRep">
+            <summary>
+            The total required rep for the player to rank up.
+            </summary>
+        </member>
+        <member name="P:RBot.Factions.Faction.RemainingRep">
+            <summary>
+            The remaining amount of rep required for the player to rank up.
+            </summary>
+        </member>
+        <member name="F:RBot.GameIDForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.GameIDForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.GameIDForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:RBot.GameProxy.CaptureProxy">
+            <summary>
+            Intercepts traffice from the game client to the game server.
+            </summary>
+        </member>
+        <member name="F:RBot.GameProxy.CaptureProxy.DefaultPort">
+            <summary>
+            The default port for the capture proxy to run on.
+            </summary>
+        </member>
+        <member name="P:RBot.GameProxy.CaptureProxy.Destination">
+            <summary>
+            The destination server for the proxy to relay traffic to and from.
+            </summary>
+        </member>
+        <member name="P:RBot.GameProxy.CaptureProxy.Interceptors">
+            <summary>
+            The list of packet interceptors.
+            </summary>
+        </member>
+        <member name="P:RBot.GameProxy.CaptureProxy.Running">
+            <summary>
+            Indicates whether the proxy is running or not.
+            </summary>
+        </member>
+        <member name="M:RBot.GameProxy.CaptureProxy.Start">
+            <summary>
+            Starts the capture proxy.
+            </summary>
+        </member>
+        <member name="M:RBot.GameProxy.CaptureProxy.Stop">
+            <summary>
+            Stops the capture proxy.
+            </summary>
+        </member>
+        <member name="T:RBot.GameProxy.Interceptor">
+            <summary>
+            Intercepts messages between the game client and server.
+            </summary>
+        </member>
+        <member name="P:RBot.GameProxy.Interceptor.Priority">
+            <summary>
+            Indicates the priority of this interceptor. Interceptors with a lower priority value will be executed first.
+            </summary>
+        </member>
+        <member name="M:RBot.GameProxy.Interceptor.Intercept(RBot.GameProxy.MessageInfo,System.Boolean)">
+            <summary>
+            Intercepts/modifies a message.
+            </summary>
+            <param name="message">The message being intercepted.</param>
+            <param name="outbound">Whether or not this packet is outbound (client -&gt; server).</param>
+            <returns>The (un)modified message.</returns>
+        </member>
+        <member name="T:RBot.GameProxy.MessageInfo">
+            <summary>
+            A class holding information about a packet.
+            </summary>
+        </member>
+        <member name="P:RBot.GameProxy.MessageInfo.Content">
+            <summary>
+            The content of the packet being intercepted. This can be modified.
+            </summary>
+        </member>
+        <member name="P:RBot.GameProxy.MessageInfo.Send">
+            <summary>
+            Whether or not to pass the packet through the proxy.
+            </summary>
+        </member>
+        <member name="M:RBot.GameProxy.MessageInfo.#ctor(System.String)">
+            <summary>
+            Creates a new instance of the MessageInfo class with the given content.
+            </summary>
+            <param name="content">The content of this message.</param>
+        </member>
+        <member name="F:RBot.GenericOptionsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.GenericOptionsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.GenericOptionsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.HotkeysForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.HotkeysForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.HotkeysForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:RBot.Items.InventoryItem.CharItemID">
+            <summary>
+            The character (instance) ID of this item.
+            </summary>
+        </member>
+        <member name="P:RBot.Items.InventoryItem.Equipped">
+            <summary>
+            Indicates if the item is equipped.
+            </summary>
+        </member>
+        <member name="P:RBot.Items.InventoryItem.Meta">
+            <summary>
+            The meta value of the item. This is used to link buffs (xp boosts etc).
+            </summary>
+        </member>
+        <member name="P:RBot.Items.InventoryItem.Level">
+            <summary>
+            The level of the item.
+            </summary>
+        </member>
+        <member name="P:RBot.Items.ItemBase.ID">
+            <summary>
+            The ID of the item.
+            </summary>
+        </member>
+        <member name="P:RBot.Items.ItemBase.Name">
+            <summary>
+            The name of the item.
+            </summary>
+        </member>
+        <member name="P:RBot.Items.ItemBase.Description">
+            <summary>
+            The description of the item.
+            </summary>
+        </member>
+        <member name="P:RBot.Items.ItemBase.Quantity">
+            <summary>
+            The quantity of the item in this stack.
+            </summary>
+        </member>
+        <member name="P:RBot.Items.ItemBase.MaxStack">
+            <summary>
+            The maximum stack size this item can exit in.
+            </summary>
+        </member>
+        <member name="P:RBot.Items.ItemBase.Upgrade">
+            <summary>
+            Indicates if the item is a member/upgrade only item.
+            </summary>
+        </member>
+        <member name="P:RBot.Items.ItemBase.Coins">
+            <summary>
+            Indicates if the item is an AC item.
+            </summary>
+        </member>
+        <member name="P:RBot.Items.ItemBase.Category">
+            <summary>
+            The category of the item.
+            </summary>
+        </member>
+        <member name="P:RBot.Items.ItemBase.Temp">
+            <summary>
+            Indicates if the item is a temporary item.
+            </summary>
+        </member>
+        <member name="F:RBot.JumpForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.JumpForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.JumpForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.LoadersForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.LoadersForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.LoadersForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.LogForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.LogForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.LogForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.MainForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.MainForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:RBot.Monsters.Monster.Name">
+            <summary>
+            The name of the monster.
+            </summary>
+        </member>
+        <member name="P:RBot.Monsters.Monster.ID">
+            <summary>
+            The global ID of the monster.
+            </summary>
+        </member>
+        <member name="P:RBot.Monsters.Monster.Race">
+            <summary>
+            The race of the monster.
+            </summary>
+        </member>
+        <member name="P:RBot.Monsters.Monster.Cell">
+            <summary>
+            The cell the monster is in.
+            </summary>
+        </member>
+        <member name="P:RBot.Monsters.Monster.MapID">
+            <summary>
+            The map ID of the monster.
+            </summary>
+        </member>
+        <member name="P:RBot.Monsters.Monster.HP">
+            <summary>
+            The monster's current HP.
+            </summary>
+        </member>
+        <member name="P:RBot.Monsters.Monster.State">
+            <summary>
+            The state of the monster.
+            </summary>
+        </member>
+        <member name="P:RBot.Monsters.Monster.FileName">
+            <summary>
+            The SWF file name of the monster.
+            </summary>
+        </member>
+        <member name="P:RBot.Monsters.Monster.Alive">
+            <summary>
+            Indicates if this monster is alive.
+            </summary>
+        </member>
+        <member name="F:RBot.OptionsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.OptionsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.OptionsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:RBot.Options.Option`1.#ctor(System.String,System.String,System.String,`0,System.Boolean)">
+            <summary>
+            Constructs an option definition with the given attributes.
+            </summary>
+        </member>
+        <member name="P:RBot.Options.OptionContainer.Options">
+            <summary>
+            A list of the container's option definitions.
+            </summary>
+        </member>
+        <member name="P:RBot.Options.OptionContainer.OptionValues">
+            <summary>
+            The mapping of the container's option definitions to their values.
+            </summary>
+        </member>
+        <member name="P:RBot.Options.OptionContainer.OptionsFile">
+            <summary>
+            Defines the location that the option's for this container are saved to and loaded from.
+            </summary>
+        </member>
+        <member name="M:RBot.Options.OptionContainer.SetDefaults">
+            <summary>
+            Sets this plugins options to the default values. This does not save the options.
+            </summary>
+        </member>
+        <member name="M:RBot.Options.OptionContainer.Get``1(System.String)">
+            <summary>
+            Gets the option with the given name's value.
+            </summary>
+            <typeparam name="T">The type to return the value as.</typeparam>
+            <param name="name">The name of the option.</param>
+            <returns>The value of the option converted from a string to type T.</returns>
+        </member>
+        <member name="M:RBot.Options.OptionContainer.Get``1(RBot.Options.IOption)">
+            <summary>
+            Gets the option's value.
+            </summary>
+            <typeparam name="T">The type to return the value as.</typeparam>
+            <param name="option">The option.</param>
+            <returns>The value of the option converted from a string to type T.</returns>
+        </member>
+        <member name="M:RBot.Options.OptionContainer.GetDirect(RBot.Options.IOption)">
+            <summary>
+            Gets the option's value directly as a string.
+            </summary>
+            <param name="option">The option.</param>
+            <returns>The option's value as a string.</returns>
+        </member>
+        <member name="M:RBot.Options.OptionContainer.Set(System.String,System.Object)">
+            <summary>
+            Sets the option with the given name to the given value.
+            </summary>
+            <param name="name">The name of the option.</param>
+            <param name="value">The value to set the option to.</param>
+        </member>
+        <member name="M:RBot.Options.OptionContainer.Set``1(RBot.Options.IOption,``0)">
+            <summary>
+            Sets the option to the given value of the given type.
+            </summary>
+            <typeparam name="T">The type of the value the option is being set to.</typeparam>
+            <param name="option">The option.</param>
+            <param name="value">The value to set the option to.</param>
+        </member>
+        <member name="M:RBot.Options.OptionContainer.Load">
+            <summary>
+            Loads options from the container's options file, if it exists.
+            </summary>
+        </member>
+        <member name="M:RBot.Options.OptionContainer.Save">
+            <summary>
+            Saves all non-transient options of this container's plugin to its options file.
+            </summary>
+            <remarks>This will overwrite previous options.</remarks>
+        </member>
+        <member name="F:RBot.PacketInterceptorForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.PacketInterceptorForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.PacketInterceptorForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.PacketLoggerForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.PacketLoggerForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.PacketLoggerForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.PacketSpammerForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.PacketSpammerForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.PacketSpammerForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:RBot.Players.PlayerInfo.Name">
+            <summary>
+            The name of the player.
+            </summary>
+        </member>
+        <member name="P:RBot.Players.PlayerInfo.HP">
+            <summary>
+            The player's current HP.
+            </summary>
+        </member>
+        <member name="P:RBot.Players.PlayerInfo.MaxHP">
+            <summary>
+            The player's maximum HP.
+            </summary>
+        </member>
+        <member name="P:RBot.Players.PlayerInfo.MP">
+            <summary>
+            The player's current MP.
+            </summary>
+        </member>
+        <member name="P:RBot.Players.PlayerInfo.Stats">
+            <summary>
+            The player's stats (incomplete).
+            </summary>
+        </member>
+        <member name="P:RBot.Players.PlayerInfo.AFK">
+            <summary>
+            Whether the player is AFK.
+            </summary>
+        </member>
+        <member name="P:RBot.Players.PlayerInfo.EntID">
+            <summary>
+            The entity ID of the player.
+            </summary>
+        </member>
+        <member name="P:RBot.Players.PlayerInfo.Level">
+            <summary>
+            The player's level.
+            </summary>
+        </member>
+        <member name="P:RBot.Players.PlayerInfo.Cell">
+            <summary>
+            The cell the player is currently in.
+            </summary>
+        </member>
+        <member name="P:RBot.Players.PlayerInfo.Pad">
+            <summary>
+            The pad the player is currently in.
+            </summary>
+        </member>
+        <member name="P:RBot.Players.PlayerInfo.X">
+            <summary>
+            The player's X coordinate.
+            </summary>
+        </member>
+        <member name="P:RBot.Players.PlayerInfo.Y">
+            <summary>
+            The player's Y coordinate.
+            </summary>
+        </member>
+        <member name="P:RBot.Players.PlayerInfo.State">
+            <summary>
+            The player's state.
+            </summary>
+        </member>
+        <member name="F:RBot.PluginsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.PluginsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.PluginsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.Plugins.PluginContainer.Options">
+            <summary>
+            A container managing this plugin's options.
+            </summary>
+        </member>
+        <member name="P:RBot.Plugins.PluginContainer.Plugin">
+            <summary>
+            This container's plugin.
+            </summary>
+        </member>
+        <member name="P:RBot.Plugins.PluginContainer.OptionsFile">
+            <summary>
+            The file at which the plugin's options are saved.
+            </summary>
+        </member>
+        <member name="P:RBot.Plugins.PluginManager.Containers">
+            <summary>
+            Gets a list of currently loaded plugins' containers.
+            </summary>
+        </member>
+        <member name="E:RBot.Plugins.PluginManager.PluginLoaded">
+            <summary>
+            Fires when a plugin is loaded.
+            </summary>
+        </member>
+        <member name="E:RBot.Plugins.PluginManager.PluginUnloaded">
+            <summary>
+            Fires when a plugin is unloaded.
+            </summary>
+        </member>
+        <member name="M:RBot.Plugins.PluginManager.Init">
+            <summary>
+            Loads all the plugins in the plugins folder. This is called when RBot loads.
+            </summary>
+        </member>
+        <member name="M:RBot.Plugins.PluginManager.Load(System.String)">
+            <summary>
+            Loads the plugin at the given path.
+            </summary>
+            <param name="path">The path to the plugin assembly.</param>
+            <returns>Whether the plugin was loaded successfully or not.</returns>
+        </member>
+        <member name="M:RBot.Plugins.PluginManager.Unload(RBot.Plugins.RPlugin)">
+            <summary>
+            Unloads the given plugin.
+            </summary>
+            <param name="plugin">The plugin to unload.</param>
+        </member>
+        <member name="M:RBot.Plugins.PluginManager.GetContainer(RBot.Plugins.RPlugin)">
+            <summary>
+            Gets the container for the given plugin.
+            </summary>
+            <param name="plugin">The plugin to get the container for.</param>
+            <returns>The plugin's container.</returns>
+        </member>
+        <member name="M:RBot.Plugins.PluginManager.GetContainer``1">
+            <summary>
+            Gets the container for the plugin with the given type.
+            </summary>
+            <typeparam name="T">The type of the plugin to get the container for.</typeparam>
+            <returns>The container for the plugin with the given type.</returns>
+        </member>
+        <member name="T:RBot.Plugins.RPlugin">
+            <summary>
+            An interface defining an RBot plugin.
+            </summary>
+        </member>
+        <member name="P:RBot.Plugins.RPlugin.Bot">
+            <summary>
+            The current instance of the bot.
+            </summary>
+        </member>
+        <member name="P:RBot.Plugins.RPlugin.Container">
+            <summary>
+            The plugin's container. This is useful for getting options.
+            </summary>
+        </member>
+        <member name="P:RBot.Plugins.RPlugin.Name">
+            <summary>
+            The name of the plugin.
+            </summary>
+        </member>
+        <member name="P:RBot.Plugins.RPlugin.Author">
+            <summary>
+            The author of the plugin.
+            </summary>
+        </member>
+        <member name="P:RBot.Plugins.RPlugin.Description">
+            <summary>
+            The description of the plugin.
+            </summary>
+        </member>
+        <member name="M:RBot.Plugins.RPlugin.Load">
+            <summary>
+            Called when the plugin is loaded.
+            </summary>
+        </member>
+        <member name="M:RBot.Plugins.RPlugin.Unload">
+            <summary>
+            Called when the plugin is unloaded.
+            </summary>
+        </member>
+        <member name="P:RBot.Plugins.RPlugin.Options">
+            <summary>
+            A list of options this plugin uses. This is only queried once, before Load is called.
+            </summary>
+        </member>
+        <member name="P:RBot.Plugins.RPlugin.OptionsStorage">
+            <summary>
+            Indicates what file name the options of this plugin should be stored under. This needs to be unique to your plugin.
+            </summary>
+        </member>
+        <member name="M:RBot.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.ID">
+            <summary>
+            The ID of the quest.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.Slot">
+            <summary>
+            The slot of the quest.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.Name">
+            <summary>
+            The name of the quest.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.Description">
+            <summary>
+            The description of the quest.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.EndText">
+            <summary>
+            The description of the quest after completion.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.Once">
+            <summary>
+            Whether this quest can only be completed once/
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.Field">
+            <summary>
+            The field of the quest.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.Index">
+            <summary>
+            The index of the quest.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.Gold">
+            <summary>
+            The amount of gold this quest gives as a reward.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.XP">
+            <summary>
+            The amount of XP this quest gives as a reward.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.Status">
+            <summary>
+            The status of the quest.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.Active">
+            <summary>
+            Indicates whether the quest is active or not.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.AcceptRequirements">
+            <summary>
+            The items required in the player's inventory to accept the quest.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.Requirements">
+            <summary>
+            The items used to turn in the quest.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.Rewards">
+            <summary>
+            The items given as a reward for completing the quest.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.Quest.SimpleRewards">
+            <summary>
+            Item drop rates are mapped to their IDs in this list.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.SimpleReward.Rate">
+            <summary>
+            The rate at which this reward drops.
+            </summary>
+        </member>
+        <member name="P:RBot.Quests.SimpleReward.Type">
+            <summary>
+            The type of the item as an integer ID.
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptEditorForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptEditorForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.ScriptEditorForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptReposForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptReposForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.ScriptReposForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.ScriptsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:RBot.HuntPriorities">
+            <summary>
+            An enum describing hunting priority behaviour.
+            </summary>
+        </member>
+        <member name="F:RBot.HuntPriorities.None">
+            <summary>
+            No priority.
+            </summary>
+        </member>
+        <member name="F:RBot.HuntPriorities.LowHP">
+            <summary>
+            Prioritises monsters with the lowest HP.
+            </summary>
+        </member>
+        <member name="F:RBot.HuntPriorities.HighHP">
+            <summary>
+            Prioritises monsters with the highest HP.
+            </summary>
+        </member>
+        <member name="F:RBot.HuntPriorities.Close">
+            <summary>
+            Prioritises monsters which are in the same cell.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptBank.BankItems">
+            <summary>
+            A list of all of the items in the player's bank.
+            </summary>
+            <remarks>The bank must be loaded for this list to be accurate (or at all complete).</remarks>
+        </member>
+        <member name="P:RBot.ScriptBank.Slots">
+            <summary>
+            The total number of bank slots the player has.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptBank.UsedSlots">
+            <summary>
+            The number of bank slots that are currently in use.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptBank.FreeSlots">
+            <summary>
+            The number of free bank slots the player has.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptBank.Contains(System.String,System.Int32)">
+            <summary>
+            Checks whether the player has the specified item in the specified quantity in their bank.
+            </summary>
+            <param name="item">The name of the item to check for.</param>
+            <param name="quantity">The quantity of the item to check for.</param>
+            <returns>Whether the player's bank contains the specified item stack.</returns>
+        </member>
+        <member name="M:RBot.ScriptBank.GetItemByName(System.String)">
+            <summary>
+            Gets the bank item with the specified name.
+            </summary>
+            <param name="name">The name of the item to get.</param>
+            <returns>The item with the specified name or null if it doesn't exist.</returns>
+        </member>
+        <member name="M:RBot.ScriptBank.TryGetItem(System.String,RBot.Items.InventoryItem@)">
+            <summary>
+            Attempts to get the item by the given name in the bank and store it in the out parameter.
+            </summary>
+            <param name="name">The name of the item to get.</param>
+            <param name="item">The item object to set to the bank item.</param>
+            <returns>True if the item with the given name exists in the player's bank.</returns>
+        </member>
+        <member name="M:RBot.ScriptBank.Swap(System.String,System.String)">
+            <summary>
+            Swaps the specified items between the player's inventory and the bank.
+            </summary>
+            <param name="invItem">The name of the item in the player's inventory to be transferred to the bank.</param>
+            <param name="bankItem">The name of the item in the bank to be transferred to the player's inventory.</param>
+        </member>
+        <member name="M:RBot.ScriptBank.ToInventory(System.String)">
+            <summary>
+            Transfers the specified item from the bank to the player's inventory.
+            </summary>
+            <param name="item">The name of the item to transfer.</param>
+        </member>
+        <member name="P:RBot.ScriptBotStats.Kills">
+            <summary>
+            The number of monsters killed by the bot.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptBotStats.QuestsAccepted">
+            <summary>
+            The number of quests accepted (not unique).
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptBotStats.QuestsCompleted">
+            <summary>
+            The number of quests completed and turned in (not unique).
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptBotStats.Deaths">
+            <summary>
+            The number of times the player has died.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptBotStats.Relogins">
+            <summary>
+            The number of times the player has been relogged in.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptBotStats.Drops">
+            <summary>
+            The number of drops picked up.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptDrops.Interval">
+            <summary>
+            The interval, in milliseconds, at which to pickup the desired drops.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptDrops.Pickup">
+            <summary>
+            The list of items to pickup every interval.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptDrops.RejectElse">
+            <summary>
+            Whether or not to reject drops not in the pickup list.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptDrops.Enabled">
+            <summary>
+            Whether or not the drop grabber is enabled.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptDrops.Start">
+            <summary>
+            Starts the drop grabber.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptDrops.Stop">
+            <summary>
+            Stops the drop grabber.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptDrops.Add(System.String)">
+            <summary>
+            Adds the specified item to the list of items to be picked up.
+            </summary>
+            <param name="item">The name of the item to add to the pickup list.</param>
+        </member>
+        <member name="M:RBot.ScriptDrops.Remove(System.String)">
+            <summary>
+            Removes the specified item from the list of items to be picked up.
+            </summary>
+            <param name="item">The name of the item to be removed from the pickup list.</param>
+        </member>
+        <member name="E:RBot.ScriptEvents.PlayerDeath">
+            <summary>
+            Occurs when the player dies.
+            </summary>
+        </member>
+        <member name="E:RBot.ScriptEvents.MonsterKilled">
+            <summary>
+            Occurs when the player kills a monster.
+            </summary>
+        </member>
+        <member name="E:RBot.ScriptEvents.QuestAccepted">
+            <summary>
+            Occurs when a quest is accepted by the script.
+            </summary>
+        </member>
+        <member name="E:RBot.ScriptEvents.QuestTurnedIn">
+            <summary>
+            Occurs when a quest is turned in by the script.
+            </summary>
+        </member>
+        <member name="E:RBot.ScriptEvents.MapChanged">
+            <summary>
+            Occurs when the current map changes.
+            </summary>
+        </member>
+        <member name="E:RBot.ScriptEvents.CellChanged">
+            <summary>
+            Occurs when the current cell changes.
+            </summary>
+        </member>
+        <member name="E:RBot.ScriptEvents.ReloginTriggered">
+            <summary>
+            Occurs when auto relogin has been triggered (but the relogin has not been carried out yet).
+            </summary>
+        </member>
+        <member name="E:RBot.ScriptEvents.ExtensionPacketReceived">
+            <summary>
+            Occurs when an extension packet is receieved.
+            </summary>
+            <remarks>The extension packet is a dynamic object deserialized from JSON.</remarks>
+        </member>
+        <member name="E:RBot.ScriptEvents.PlayerAFK">
+            <summary>
+            Occurs when the player turns AFK.
+            </summary>
+        </member>
+        <member name="E:RBot.ScriptEvents.TryBuyItem">
+            <summary>
+            Occurs when the player attempts to buy an item from a shop.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptEvents.ClearHandlers">
+            <summary>
+            Clears all the currently set event handlers.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.Options">
+            <summary>
+            An object holding options for the current bot.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.Wait">
+            <summary>
+            /// An object holding a set of methods for waiting for certain events to occur.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.Player">
+            <summary>
+            An object holding a set of methods which allow most of the interaction between the script and the game.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.Monsters">
+            <summary>
+            An object holding a set of methods for accessing information about currently loaded monsters.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.Inventory">
+            <summary>
+            An object holding a set of methods for inventory management.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.Bank">
+            <summary>
+            An object holding a set of methods for bank management.
+            </summary>
+            <remarks>It is important to ensure the bank is loaded before trying to check the presence of items or move them between the bank or inventory. This can be done manually or by using <see cref="M:RBot.ScriptPlayer.LoadBank(System.Boolean)" />.</remarks>
+        </member>
+        <member name="P:RBot.ScriptInterface.Map">
+            <summary>
+            An object holding a set of methods for getting information about the currently loaded map.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.Quests">
+            <summary>
+            An object holding a set of methods for quest management.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.Shops">
+            <summary>
+            An object holding a set of methods for accessing and interacting with shops.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.Skills">
+            <summary>
+            The skill manager is used to enable skills to be used in combat.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.Runtime">
+            <summary>
+            An object holding runtime variables for the currently running script. These are cleared when another script is started.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.Stats">
+            <summary>
+            An object holding stats about the current botting session.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.Events">
+            <summary>
+            An object holding a set of events which can be listened for.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.Config">
+            <summary>
+            This contains options for the currently loaded script.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.Drops">
+            <summary>
+            The drop grabber can be used to accept/reject drops. It does this on the script timer thread. This is significantly less safe than waiting for the drop to be picked up on the main thread of the running bot.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.Strategy">
+            <summary>
+            An object used for acquiring items based on information on how to acquire them.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.GameProxy">
+            <summary>
+            The global packet intercepter instance.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInterface.IsWorldLoaded">
+            <summary>
+            A boolean determining whether the world clip has been loaded yet.
+            </summary>
+            <remarks>This can be used as an additional way of checking if the player is logged in and ready to perform actions.</remarks>
+        </member>
+        <member name="P:RBot.ScriptInterface.Handlers">
+            <summary>
+            A list of handlers which contain functions to be run on the script timer thread. This list is cleared when the script stops and when a new script is started.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptInterface.Init">
+            <summary>
+            Initializes the ScriptInterface instance and its timer thread.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptInterface.Exit">
+            <summary>
+            Prepares for the application to close.
+            Do NOT call this from scripts.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptInterface.ShouldExit">
+            <summary>
+            Returns a value determining whether or not the current script should exit.
+            </summary>
+            <returns>Whether the current script should exit.</returns>
+        </member>
+        <member name="M:RBot.ScriptInterface.Schedule(System.Int32,System.Func{RBot.ScriptInterface,System.Threading.Tasks.Task})">
+            <summary>
+            Schedules the specified action to run after the specified delay in ms. This is done using C# async tasks.
+            </summary>
+            <param name="delay">The time to delay the action for in milliseconds.</param>
+            <param name="action">The action to run. This can be passed as a lambda expression.</param>
+        </member>
+        <member name="M:RBot.ScriptInterface.Schedule(System.Int32,System.Action{RBot.ScriptInterface})">
+            <summary>
+            Schedules the specified action to run after the specified delay in ms. This is done using C# async tasks.
+            </summary>
+            <param name="delay">The time to delay the action for in milliseconds.</param>
+            <param name="action">The action to run. This can be passed as a lambda expression.</param>
+        </member>
+        <member name="M:RBot.ScriptInterface.RegisterHandler(System.Int32,System.Func{RBot.ScriptInterface,System.Boolean},System.String)">
+            <summary>
+            Register an action to be executed every time the specified number of ticks has passed. A tick is 20ms.
+            </summary>
+            <param name="ticks">The number of ticks between consecutive executions of the action.</param>
+            <param name="func">The action to carry out. If this function returns false, the handler will not continue to run.</param>
+            <param name="name">The name of this handler (must be unique). Passing null will assign it a unique name.</param>
+            <returns>The handler registered.</returns>
+        </member>
+        <member name="M:RBot.ScriptInterface.RegisterHandler(System.Int32,System.Action{RBot.ScriptInterface},System.String)">
+            <summary>
+            Register an action to be executed every time the specified number of ticks has passed. A tick is 20ms.
+            </summary>
+            <param name="ticks">The number of ticks between consecutive executions of the action.</param>
+            <param name="func">The action to carry out at every interval.</param>
+            <param name="name">The name of this handler (must be unique). Passing null will assign it a unique name.</param>
+            <returns>The handler registered.</returns>
+        </member>
+        <member name="M:RBot.ScriptInterface.RegisterOnce(System.Int32,System.Action{RBot.ScriptInterface},System.String)">
+            <summary>
+            Register an action to be executed every time the specified number of ticks has passed. A tick is 20ms.
+            </summary>
+            <param name="ticks">The number of ticks between consecutive executions of the action.</param>
+            <param name="func">The action to carry out once.</param>
+            <param name="name">The name of this handler (must be unique). Passing null will assign it a unique name.</param>
+            <returns>The handler registered.</returns>
+        </member>
+        <member name="M:RBot.ScriptInterface.Log(System.String)">
+            <summary>
+            Logs a line of text to the script log.
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="M:RBot.ScriptInterface.Sleep(System.Int32)">
+            <summary>
+            Sleeps the bot for the specified time period. This method sleeps the script execution thread.
+            </summary>
+            <param name="ms">The time in milliseconds for the bot to sleep.</param>
+        </member>
+        <member name="M:RBot.ScriptInterface.SendPacket(System.String,System.String)">
+            <summary>
+            Sends the specified packet to the server.
+            </summary>
+            <param name="packet">The packet to be sent.</param>
+            <param name="type">The type of the packet being sent (String, Json). The default is string.</param>
+            <remarks>Be careful when using this method. Incorrect use of this method may cause you to be kicked (or banned, although very unlikely).</remarks>
+        </member>
+        <member name="M:RBot.ScriptInterface.SendClientPacket(System.String,System.String)">
+            <summary>
+            Sends the specified packet to the client (simulates a response as if the server sent the packet).
+            </summary>
+            <param name="packet">The packet to send.</param>
+            <param name="type">The type of the packet. This can be xml, json or str.</param>
+        </member>
+        <member name="M:RBot.ScriptInterface.IsNull(System.String)">
+            <summary>
+            Checks if the actionscript object at the given path is null.
+            </summary>
+            <param name="path">The path of the object to check.</param>
+            <returns>True if the object at the given path is null (unset).</returns>
+        </member>
+        <member name="M:RBot.ScriptInterface.GetGameObject(System.String)">
+            <summary>
+            Gets an actionscript object at the given location as a JSON string.
+            </summary>
+            <param name="path">The path of the object to get.</param>
+            <returns>The value of the object at the given path as a serialzied JSON string.</returns>
+        </member>
+        <member name="M:RBot.ScriptInterface.GetGameObject``1(System.String,``0)">
+            <summary>
+            Gets an actionscript object at the given location and deserializes it as JSON to the given type.
+            </summary>
+            <typeparam name="T">The type to deserialize the object to.</typeparam>
+            <param name="path">The path of the object to get (i.e. world.myAvatar.sta.$tha will get your haste stat).</param>
+            <param name="def">The default value to return if the call/deserialization fails.</param>
+            <returns>The deserialized value of the object at the given path.</returns>
+        </member>
+        <member name="M:RBot.ScriptInterface.GetGameObjectStatic(System.String)">
+            <summary>
+            Gets a static actionscript object at the given location as a JSON string.
+            </summary>
+            <param name="path">The path of the object to get.</param>
+            <returns>The value of the object at the given path as a serialzied JSON string.</returns>
+        </member>
+        <member name="M:RBot.ScriptInterface.GetGameObjectStatic``1(System.String,``0)">
+            <summary>
+            Gets a static actionscript object at the given location and deserializes it as JSON to the given type.
+            </summary>
+            <typeparam name="T">The type to deserialize the object to.</typeparam>
+            <param name="path">The path of the object to get.</param>
+            <param name="def">The default value to return if the call/deserialization fails.</param>
+            <returns>The deserialized value of the object at the given path.</returns>
+        </member>
+        <member name="M:RBot.ScriptInterface.SetGameObject(System.String,System.Object)">
+            <summary>
+            Sets the value of the actionscript object at the given path.
+            </summary>
+            <param name="path">The path of the object to set.</param>
+            <param name="value">The value to set the object to. This can be a string, any number type or a bool.</param>
+        </member>
+        <member name="M:RBot.ScriptInterface.CallGameFunction(System.String,System.Object[])">
+            <summary>
+            Calls the actionscript object with the given name at the given location.
+            </summary>
+            <param name="path">The path to the object and its function name.</param>
+            <param name="args">The arguments to pass to the function.</param>
+            <returns>The value of the object returned by calling the function as a serialzied JSON string.</returns>
+        </member>
+        <member name="M:RBot.ScriptInterface.CallGameFunction``1(System.String,System.Object[])">
+            <summary>
+            Calls the actionscript object with the given name at the given location.
+            </summary>
+            <typeparam name="T">The type to deserialize the return of the function as.</typeparam>
+            <param name="path">The path to the object and its function name.</param>
+            <param name="args">The arguments to pass to the function.</param>
+            <returns>The deserialized value of the object returned by the function.</returns>
+        </member>
+        <member name="M:RBot.ScriptInterface.GetArrayObject(System.String,System.Int32)">
+            <summary>
+            Gets the actionscript object of the array at the given path at the given index in that array.
+            </summary>
+            <param name="path">The path to the array.</param>
+            <param name="index">The index in the array to get the object from.</param>
+            <returns>The value of the object at the given index in the array as a serialzied JSON string.</returns>
+        </member>
+        <member name="M:RBot.ScriptInterface.GetArrayObject``1(System.String,System.Int32,``0)">
+            <summary>
+            Gets the actionscript object of the array at the given path at the given index in that array.
+            </summary>
+            <typeparam name="T">The type to deserialize the object in the array as.</typeparam>
+            <param name="path">The path to the array.</param>
+            <param name="index">The index in the array to get the object from.</param>
+            <param name="def">The default value to return if the call/deserialization fails.</param>
+            <returns>The deserialized value of the object at the given index in the array.</returns>
+        </member>
+        <member name="M:RBot.ScriptInterface.SelectArrayObjects``1(System.String,System.String)">
+            <summary>
+            Selects the members of each object in the array at the given path and puts them into a new array and returns them.
+            </summary>
+            <typeparam name="T">The type of object to deserialize the contents of the array as.</typeparam>
+            <param name="path">The path to the array.</param>
+            <param name="selector">The name of the field to use to populate the new array.</param>
+            <returns>A list of deserialized objects from the selected array.</returns>
+        </member>
+        <member name="P:RBot.ScriptInventory.Items">
+            <summary>
+            A list of the items in the player's inventory.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptInventory.TempItems">
+            <summary>
+            A list of items in the player's temporary inventory.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptInventory.Contains(System.String,System.Int32)">
+            <summary>
+            Checks whether the player has the specified item in the specified quantity in their inventory.
+            </summary>
+            <param name="item">The name of the item to check for.</param>
+            <param name="quantity">The quantity of the item to check for.</param>
+            <returns>Whether the player's inventory contains the specified item stack.</returns>
+        </member>
+        <member name="M:RBot.ScriptInventory.ContainsTempItem(System.String,System.Int32)">
+            <summary>
+            Checks whether the player has the specified item in the specified quantity in their temporary inventory.
+            </summary>
+            <param name="item">The name of the item to check for.</param>
+            <param name="quantity">The quantity of the item to check for.</param>
+            <returns>Whether the player's temporary inventory contains the specified item stack.</returns>
+        </member>
+        <member name="M:RBot.ScriptInventory.ToBank(System.String)">
+            <summary>
+            Transfers the speicifed item from the player's inventory to their bank.
+            </summary>
+            <param name="item">The name of the item to transfer.</param>
+        </member>
+        <member name="M:RBot.ScriptInventory.ToBank(RBot.Items.InventoryItem)">
+            <summary>
+            Transfers the speicifed item from the player's inventory to their bank.
+            </summary>
+            <param name="item">The item to transfer.</param>
+        </member>
+        <member name="M:RBot.ScriptInventory.GetQuantity(System.String)">
+            <summary>
+            Gets the quantity of the specified item in the player's inventory.
+            </summary>
+            <param name="item">The name of the item.</param>
+            <returns>The quantity of the specified item.</returns>
+        </member>
+        <member name="M:RBot.ScriptInventory.GetTempQuantity(System.String)">
+            <summary>
+            Gets the quantity of the specified item in the player's temporary inventory.
+            </summary>
+            <param name="item">The name of the item.</param>
+            <returns>The quantity of the specified item.</returns>
+        </member>
+        <member name="M:RBot.ScriptInventory.GetItemByName(System.String)">
+            <summary>
+            Gets a reference to the specified item in the player's inventory. This can be used to access other inforation about the item. <see cref="!:Item" />
+            </summary>
+            <param name="name">The name of the item.</param>
+            <returns>A reference to the specified item.</returns>
+        </member>
+        <member name="M:RBot.ScriptInventory.GetItemById(System.Int32)">
+            <summary>
+            Gets a reference to the specified item in the player's inventory. This can be used to access other inforation about the item. <see cref="!:Item" />
+            </summary>
+            <param name="id">The id of the item.</param>
+            <returns>A reference to the specified item.</returns>
+        </member>
+        <member name="M:RBot.ScriptInventory.GetTempItemByName(System.String)">
+            <summary>
+            Gets a reference to the specified item in the player's temporary inventory. This can be used to access other inforation about the item. <see cref="!:TempItem" />
+            </summary>
+            <param name="name">The name of the item.</param>
+            <returns>A reference to the specified temporary item.</returns>
+        </member>
+        <member name="M:RBot.ScriptInventory.TryGetItem(System.Int32,RBot.Items.InventoryItem@)">
+            <summary>
+            Attempts to get the item by the given id and sets the out parameter to this value.
+            </summary>
+            <param name="id">The id of the item to get.</param>
+            <param name="item">The item object to set.</param>
+            <returns>True if the item with the given name exists in the player's inventory.</returns>
+        </member>
+        <member name="M:RBot.ScriptInventory.TryGetItem(System.String,RBot.Items.InventoryItem@)">
+            <summary>
+            Attempts to get the item by the given name and sets the out parameter to this value.
+            </summary>
+            <param name="name">The name of the item to get.</param>
+            <param name="item">The item object to set.</param>
+            <returns>True if the item with the given name exists in the player's inventory.</returns>
+        </member>
+        <member name="M:RBot.ScriptInventory.TryGetTempItem(System.String,RBot.Items.ItemBase@)">
+            <summary>
+            Attempts to get the temporary item by the given name and sets the out parameter to this value.
+            </summary>
+            <param name="name">The name of the temp item to get.</param>
+            <param name="item">The item object to set.</param>
+            <returns>True if the temp item with the given name exists in the player's temp inventory.</returns>
+        </member>
+        <member name="M:RBot.ScriptInventory.BankAllCoinItems">
+            <summary>
+            Transfers all AC (coin) items that are not equipped from the player's inventory to the bank.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptMap.Name">
+            <summary>
+            Gets the name of the currently loaded map.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptMap.RoomID">
+            <summary>
+            Gets the current room's area id.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptMap.PlayerCount">
+            <summary>
+            Gets the number of players in the currently loaded map.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptMap.PlayerNames">
+            <summary>
+            Gets a list of player names in the currently loaded map.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptMap.Players">
+            <summary>
+            Gets a list of all players in the current map.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptMap.CellPlayers">
+            <summary>
+            Gets a list of all players in the current cell.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptMap.Loaded">
+            <summary>
+            Determines whether a map is currently loaded completely..
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptMap.Cells">
+            <summary>
+            Gets a list of all of the cells in the current map.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptMap.GetPlayer(System.String)">
+            <summary>
+            Gets info about the player with the given username.
+            </summary>
+            <param name="username">The username of the player.</param>
+            <returns>An object holding info for the given player.</returns>
+        </member>
+        <member name="M:RBot.ScriptMap.Reload">
+            <summary>
+            Reloads the current map.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptMap.GetMapItem(System.Int32)">
+            <summary>
+            Sends a getMapItem packet for the specified item.
+            </summary>
+            <param name="id">The id of the item.</param>
+        </member>
+        <member name="M:RBot.ScriptMap.PlayerExists(System.String)">
+            <summary>
+            Checks if the specified player exists in the current room.
+            </summary>
+            <param name="name">The name of the player.</param>
+            <returns>Whether the player with the specified name is in the current room.</returns>
+        </member>
+        <member name="P:RBot.ScriptMonsters.HuntCellBlacklist">
+            <summary>
+            A list of cells to ignore when hunting enemies.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptMonsters.CurrentMonsters">
+            <summary>
+            A list of monsters in the current cell.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptMonsters.MapMonsters">
+            <summary>
+            A list of all monsters in the current map.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptMonsters.Exists(System.String)">
+            <summary>
+            Checks whether the specified monster exists in the current cell.
+            </summary>
+            <param name="name">The name of the monster whose existence should be checked.</param>
+            <returns>Whether the specified monster exists and is alive in the current cell.</returns>
+        </member>
+        <member name="M:RBot.ScriptMonsters.GetCellMonsters">
+            <summary>
+            Gets a dictionary which maps cell names of the current map to all monsters in that cell.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptMonsters.GetMonstersByCell(System.String)">
+            <summary>
+            Gets all of the monsters in the given cell in the current map.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptMonsters.GetMonsterCells(System.String)">
+            <summary>
+            Gets all of the cells with the desired monster in (in the current map).
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptMonsters.GetLivingMonsterCells(System.String)">
+            <summary>
+            Gets all of the cells with a living instance of the desired monster (in the current map).
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptionContainer.Storage">
+            <summary>
+            The name of the file used to store this scripts options. This should be unique to your script to prevent option name clashes.
+            </summary>
+            <remarks>Transient options are reset when the script is restarted (including auto-relogins).</remarks>
+        </member>
+        <member name="M:RBot.ScriptOptionContainer.Configure">
+            <summary>
+            Opens the script option window and waits for the user to save the options.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.RestPackets">
+            <summary>
+            A rest packet will be sent every second, causing the player to heal when not in combat.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.SafeTimings">
+            <summary>
+            When safe timings are enabled, the bot will wait for any action called to be completed with a timeout of (generally) 5 seconds (i.e. picking a drop) before continuing execution. It is strongly recommended that this is turned on.
+            </summary>
+            <remarks>This option does not ensure actions are carried out successfully, as it is quite possible that the 5 second timeout is reached before an action is completed.</remarks>
+        </member>
+        <member name="P:RBot.ScriptOptions.ExitCombatBeforeQuest">
+            <summary>
+            The bot will ensure the player is not in combat before attempting to turn in a quest.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.SkipCutscenes">
+            <summary>
+            Determines whether cutsenes should be skipped.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.PrivateRooms">
+            <summary>
+            Determines whether to join only private rooms or not.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.Magnetise">
+            <summary>
+            When enabled, this will cause all targeted monsters to teleport to you.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.LagKiller">
+            <summary>
+            Disables drawing the world to (somewhat) reduce lag and CPU usage.
+            </summary>
+            <remarks>It is much more effective to minimize the game to reduce CPU usage than to enable this option. For the lowest CPU usage, try both.</remarks>
+        </member>
+        <member name="P:RBot.ScriptOptions.AggroMonsters">
+            <summary>
+            Determines whether all monsters in the room should be aggroed (provoked). They will all attack you at the same time.
+            </summary>
+            <remarks>Having this option enabled keeps you in combat at all times, sometimes making it impossible to turn in quests.</remarks>
+        </member>
+        <member name="P:RBot.ScriptOptions.InfiniteRange">
+            <summary>
+            Enabling this option allows you to attack targets from any range (without moving).
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.DisableFX">
+            <summary>
+            Disables all player combat animations (improves framerate).
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.AutoRelogin">
+            <summary>
+            Enables the auto-relogin feature. If enabled, when the player is logged out of the game, they will automatically be logged back in with the configured username and password, to the configured server.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.AutoReloginAny">
+            <summary>
+            Re-logs into any server that wasn't the last one. This ensures the re-log is successful.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.SafeRelogin">
+            <summary>
+            When enabled, there will be a 1 minute 15 second delay before the player is re-logged in.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.DisableCollisions">
+            <summary>
+            Disables all collisions in the game.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.GlitchedRooms">
+            <summary>
+            When enabled, calls to ScriptPlayer#Join will be redirected to ScriptPlayer#JoinGlitched automatically.
+            GLITCHED ROOMS HAVE BEEN PATCHED. THIS OPTION NOW DOES NOTHING.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.HidePlayers">
+            <summary>
+            When enabled, all player avatars are hidden.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.LoginServer">
+            <summary>
+            The server to relogin to.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.RunOnExit">
+            <summary>
+            The command to run when the current script exits. This will not run if the script is stopped by the user.
+            </summary>
+            <remarks>Nothing will be run if this is null.</remarks>
+        </member>
+        <member name="P:RBot.ScriptOptions.CustomName">
+            <summary>
+            Sets a persistent, custom player name (client side).
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.CustomGuild">
+            <summary>
+            Sets a persistent, custom guild name (client side).
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.WalkSpeed">
+            <summary>
+            An option to constantly modify the player's walk speed (the ScriptManager's timer thread will update the ingame value).
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.LoadTimeout">
+            <summary>
+            The time in ms that the game is allowed to load before logging the user out (triggering a relogin if enabled).
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.HuntDelay">
+            <summary>
+            The minimum time between jumping between rooms when hunting for enemies (in milliseconds). The default is 1000ms.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.HuntBuffer">
+            <summary>
+            How many kills hunt should wait for before picking up drops.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.HuntPriority">
+            <summary>
+            The priority mode for hunting.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.ClientSWF">
+            <summary>
+            The swf file to load the client with.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptOptions.HasteOverride">
+            <summary>
+            Overrides the haste stat on the client side. This reduces skill cooldowns. This is capped at 0.5 (50%).
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.ID">
+            <summary>
+            Gets the player ID (useful for some packets).
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.XP">
+            <summary>
+            Gets the player's current XP.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.RequiredXP">
+            <summary>
+            Gets the player's required XP to level up.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Cell">
+            <summary>
+            The current cell that the player is in.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Pad">
+            <summary>
+            The current pad that the player spawned from.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.ServerIP">
+            <summary>
+            The server to which the player is currently connected.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Playing">
+            <summary>
+            Checks whether the player is both logged in and alive.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.LoggedIn">
+            <summary>
+            Checks whether the player is logged in.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Username">
+            <summary>
+            Gets the player's username.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Password">
+            <summary>
+            Gets the player's password.
+            </summary>
+            <remarks>This currently does not always work.</remarks>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Kicked">
+            <summary>
+            Gets whether the player was kicked from the server.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.State">
+            <summary>
+            Gets the player's state.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.InCombat">
+            <summary>
+            Checks if the player is in combat.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.IsMember">
+            <summary>
+            Checks if the player is a member (upgrade).
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Alive">
+            <summary>
+            Checks whether the player is alive or not.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Health">
+            <summary>
+            Gets the player's current health.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.MaxHealth">
+            <summary>
+            Gets the player's maximum health.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Mana">
+            <summary>
+            Gets or sets the player's current mana.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.MaxMana">
+            <summary>
+            Gets the player's maximum mana.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Level">
+            <summary>
+            Gets the player's level.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Gold">
+            <summary>
+            Gets the player's gold.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Rank">
+            <summary>
+            Gets the player's current class rank.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.HasTarget">
+            <summary>
+            Checks if the player currently has a target selected.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Loaded">
+            <summary>
+            Checks whether the player's avatar is loaded.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.AccessLevel">
+            <summary>
+            The player's access level.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Upgrade">
+            <summary>
+            Gets/sets whether the player is upgrade or not.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Skills">
+            <summary>
+            Gets an array containing information about the player's current skills.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.AFK">
+            <summary>
+            Checks whether the player is marked as AFK or not.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Position">
+            <summary>
+            The current position of the player.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.X">
+            <summary>
+            The player's current X coordinate.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Y">
+            <summary>
+            The player's current Y coordinate.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.WalkSpeed">
+            <summary>
+            Gets or sets the walking speed of the player. The default value is 8.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Scale">
+            <summary>
+            This does nothing at the moment...
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Target">
+            <summary>
+            The currently targeted monster. If no monster is targeted, null is returned.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.Factions">
+            <summary>
+            Gets an array containing all the names of the factions that the player has some reputation in.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.CurrentDrops">
+            <summary>
+            Gets a list of item names currently on the drop stack.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptPlayer.CurrentDropInfos">
+            <summary>
+            Gets a list of drops available with their counts.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptPlayer.CanUseSkill(System.Int32)">
+            <summary>
+            Checks if the given skill has cooled down.
+            </summary>
+            <param name="index">The index of the skill to check.</param>
+            <returns>Whether the given skill has cooled down.</returns>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Pickup(System.String[])">
+            <summary>
+            Picks up the specified list of items.
+            </summary>
+            <param name="items">The names of the items to pick up.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.PickupFast(System.String[])">
+            <summary>
+            Picks up the specified list of items, without waiting for the items to be picked up. This method disregards the SafeTimings option.
+            </summary>
+            <param name="items"></param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.RejectExcept(System.String[])">
+            <summary>
+            Rejects all drops except those in the specified list.
+            </summary>
+            <param name="items">The list of items to not reject.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.RejectExceptFast(System.String[])">
+            <summary>
+            Rejects all drops except those in the specified list, without waiting for the items to be picked up. This method disregards the SafeTimings option.
+            </summary>
+            <param name="items"></param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.DropExists(System.String)">
+            <summary>
+            Checks if a drop of the specified item exists.
+            </summary>
+            <param name="name">The name of the item.</param>
+            <returns>Whether a drop of the specified item exists.</returns>
+        </member>
+        <member name="M:RBot.ScriptPlayer.PickupAll(System.Boolean)">
+            <summary>
+            Picks up all available drops.
+            </summary>
+            <param name="skipWait">Whether the SafeTimings option is ignored.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.RejectAll(System.Boolean)">
+            <summary>
+            Rejects all availble drops.
+            </summary>
+            <param name="skipWait">Whether the SafeTimings option is ignored.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.WalkTo(System.Single,System.Single,System.Int32)">
+            <summary>
+            Walks the player to the specified x and y coordinates.
+            </summary>
+            <param name="x">The x coordinate.</param>
+            <param name="y">The y coordinate.</param>
+            <param name="speed">The speed at which to move the player's avatar.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.SetSpawnPoint(System.String,System.String)">
+            <summary>
+            Sets the player's respawn point to the current cell and pad.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptPlayer.LoadBank(System.Boolean)">
+            <summary>
+            Loads the player's bank so it can be used in the script.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Login(System.String,System.String)">
+            <summary>
+            Logs into the game with the specified username and password.
+            </summary>
+            <param name="username">The username to login with.</param>
+            <param name="password">The password to login with.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Connect(System.String)">
+            <summary>
+            Connects to the game server with the specified name.
+            </summary>
+            <param name="serverName">The name of the server to connect to (e.g. Artix)</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Connect(RBot.Servers.Server)">
+            <summary>
+            Connects to the specified game server.
+            </summary>
+            <param name="server">The server to connect to.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.ConnectIP(System.String)">
+            <summary>
+            Connects to the game server with the specified IP address.
+            </summary>
+            <param name="ip">The IP address of the server to connec to.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Reconnect(System.String,System.Int32)">
+            <summary>
+            Logs in and connects to the specified server.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Logout">
+            <summary>
+            Logs out of the game.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptPlayer.UntargetSelf">
+            <summary>
+            Untargets the player if they are currently targeted.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptPlayer.CancelTarget">
+            <summary>
+            Deselects the currently selected target.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptPlayer.ApproachTarget">
+            <summary>
+            Walks towards (approaches) the currently selected target.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Attack(System.String)">
+            <summary>
+            Attacks the specified monster.
+            </summary>
+            <param name="name">The name of the monster to attack.</param>
+            <remarks>This will not wait until the monster is killed, but simply select it and start attacking it.</remarks>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Attack(RBot.Monsters.Monster)">
+            <summary>
+            Attacks the specified instance of a monster.
+            </summary>
+            <param name="monster">The monster to attack.</param>
+            <remarks>This will not wait until the monster is killed, but simply select it and start attacking it.</remarks>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Attack(System.Int32)">
+            <summary>
+            Attacks the monster with the specified map id.
+            </summary>
+            <param name="id">The map id of the monster to attack.</param>
+            <remarks>This will not wait until the monster is killed, but simply select it and start attacking it.</remarks>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Hunt(System.String)">
+            <summary>
+            Looks for the enemy in the current map and kills it. This method disregards ScriptOptions#HuntPriority.
+            </summary>
+            <param name="name">The name of the enemy to hunt.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.HuntWithPriority(System.String,RBot.HuntPriorities)">
+            <summary>
+            Hunts monsters with a priority. If there is no priority, this has the same behaviour as just Hunt.
+            If a priority is specified, monsters in the map are sorted by the given priority. Once sorted, the
+            monster in the current cell which best matches the priority is killed. Otherwise, a cell jump is
+            awaited and done based on ScriptOptions#HuntDelay.
+            </summary>
+            <param name="name"></param>
+            <param name="priority"></param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.HuntForItem(System.String,System.String,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            Hunts the specified monster for a specific item.
+            </summary>
+            <param name="name">The name of the monster to kill.</param>
+            <param name="item">The item to collect.</param>
+            <param name="quantity">The quantity of the item that must be collected before stopping the killing of the monster.</param>
+            <param name="tempItem">Whether or not the item being collected is a temporary (quest) item.</param>
+            <param name="rejectElse">Whether or not to reject items which are not the 'item' paramater.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.HuntForItem(System.String[],System.String,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            Hunts the specified monsters for a specific item.
+            </summary>
+            <param name="names">The array of names of monsters to kill.</param>
+            <param name="item">The item to collect.</param>
+            <param name="quantity">The quantity of the item that must be collected before stopping the killing of the monster.</param>
+            <param name="tempItem">Whether or not the item being collected is a temporary (quest) item.</param>
+            <param name="rejectElse">Whether or not to reject items which are not the 'item' paramater.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.HuntForItem(System.Collections.Generic.List{System.String},System.String,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            Hunts the specified monsters for a specific item.
+            </summary>
+            <param name="names">The list of names of monsters to kill.</param>
+            <param name="item">The item to collect.</param>
+            <param name="quantity">The quantity of the item that must be collected before stopping the killing of the monster.</param>
+            <param name="tempItem">Whether or not the item being collected is a temporary (quest) item.</param>
+            <param name="rejectElse">Whether or not to reject items which are not the 'item' paramater.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.HuntForItems(System.String,System.String[],System.Int32[],System.Boolean[],System.Boolean)">
+            <summary>
+            Hunts the specified monster until the desired items are collected in the desired quantities.
+            </summary>
+            <param name="name">The name of the monster to kill.</param>
+            <param name="items">The items to collect.</param>
+            <param name="quantities">The quantities of the items that must be collected before stopping the killing of the monster.</param>
+            <param name="tempItems">Whether or not each item being collected is a temporary (quest) item.</param>
+            <param name="rejectElse">Whether or not to reject items which are not contained in the 'items' array.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.HuntForItems(System.String,System.String[],System.Int32[],System.Boolean,System.Boolean)">
+            <summary>
+            Hunts the specified monster until the desired items are collected in the desired quantities.
+            </summary>
+            <param name="name">The name of the monster to kill.</param>
+            <param name="items">The items to collect.</param>
+            <param name="quantities">The quantities of the items that must be collected before stopping the killing of the monster.</param>
+            <param name="tempItems">Whether or not the items being collected are temporary (quest) items.</param>
+            <param name="rejectElse">Whether or not to reject items which are not contained in the 'items' array.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.HuntForItems(System.String[],System.String[],System.Int32[],System.Boolean[],System.Boolean)">
+            <summary>
+            Hunts the specified monster until the desired items are collected in the desired quantities.
+            </summary>
+            <param name="names">The names of the monsters to kill.</param>
+            <param name="items">The item to collect.</param>
+            <param name="quantities">The quantities of the items that must be collected before stopping the killing of the monster.</param>
+            <param name="tempItems">Whether or not each item being collected is a temporary (quest) item.</param>
+            <param name="rejectElse">Whether or not to reject items which are not contained in the 'items' array.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.HuntForItems(System.String[],System.String[],System.Int32[],System.Boolean,System.Boolean)">
+            <summary>
+            Hunts the specified monster until the desired items are collected in the desired quantities.
+            </summary>
+            <param name="names">The names of the monsters to kill.</param>
+            <param name="items">The items to collect.</param>
+            <param name="quantities">The quantities of the items that must be collected before stopping the killing of the monster.</param>
+            <param name="tempItems">Whether or not the items being collected are temporary (quest) items.</param>
+            <param name="rejectElse">Whether or not to reject items which are not contained in the 'items' array.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.HuntForItems(System.Collections.Generic.List{System.String},System.String[],System.Int32[],System.Boolean[],System.Boolean)">
+            <summary>
+            Hunts the specified monster until the desired items are collected in the desired quantities.
+            </summary>
+            <param name="names">The names of the monsters to kill.</param>
+            <param name="items">The items to collect.</param>
+            <param name="quantities">The quantities of the items that must be collected before stopping the killing of the monster.</param>
+            <param name="tempItems">Whether or not each item being collected is a temporary (quest) item.</param>
+            <param name="rejectElse">Whether or not to reject items which are not contained in the 'items' array.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.HuntForItems(System.Collections.Generic.List{System.String},System.String[],System.Int32[],System.Boolean,System.Boolean)">
+            <summary>
+            Hunts the specified monster until the desired items are collected in the desired quantities.
+            </summary>
+            <param name="names">The names of the monsters to kill.</param>
+            <param name="items">The items to collect.</param>
+            <param name="quantities">The quantities of the items that must be collected before stopping the killing of the monster.</param>
+            <param name="tempItems">Whether or not the items being collected are temporary (quest) items.</param>
+            <param name="rejectElse">Whether or not to reject items which are not contained in the 'items' array.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Kill(System.String)">
+            <summary>
+            Attacks the specified monster and waits until it is killed (if SafeTimings are enabled).
+            </summary>
+            <param name="name">The name of the monster to kill.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Kill(RBot.Monsters.Monster)">
+            <summary>
+            Attacks the specified instance of a monster and waits until it is killed (if SafeTimings are enabled).
+            </summary>
+            <param name="monster">The monster to kill.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.KillForItem(System.String,System.String,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            Kills the specified monster until the desired item is collected in the desired quantity.
+            </summary>
+            <param name="name">The name of the monster to kill.</param>
+            <param name="item">The item to collect.</param>
+            <param name="quantity">The quantity of the item that must be collected before stopping the killing of the monster.</param>
+            <param name="tempItem">Whether or not the item being collected is a temporary (quest) item.</param>
+            <param name="rejectElse">Whether or not to reject items which are not the 'item' paramater.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.KillForItems(System.String,System.String[],System.Int32[],System.Boolean,System.Boolean)">
+            <summary>
+            Kills the specified monster until the desired items are collected in the desired quantities.
+            </summary>
+            <param name="name">The name of the monster to kill.</param>
+            <param name="items">The item to collect.</param>
+            <param name="quantities">The quantities of the items that must be collected before stopping the killing of the monster.</param>
+            <param name="tempItems">Whether or not the items being collected are temporary (quest) items.</param>
+            <param name="rejectElse">Whether or not to reject items which are not contained in the 'items' array.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.AttackPlayer(System.String)">
+            <summary>
+            Attacks the specified player. If not in PVP mode, this will only target the player, and not attack them.
+            </summary>
+            <param name="name">The name of the player to attack.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.KillPlayer(System.String)">
+            <summary>
+            Attacks the specified player and waits until they are killed (if SafeTiings are enabled). This should only be used in PVP.
+            </summary>
+            <param name="name">The name of the player to kill.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.UseSkill(System.Int32)">
+            <summary>
+            Uses the skill with the specified index (1-4).
+            </summary>
+            <param name="index">The index of the skill.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Jump(System.String,System.String,System.Boolean)">
+            <summary>
+            Jumps the player to the specified cell and pad.
+            </summary>
+            <param name="cell">The cell to jump to.</param>
+            <param name="pad">The pad to jump to.</param>
+            <param name="clientOnly">If true, the client will not send a moveToCell packet to the server.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.JoinIgnore(System.String)">
+            <summary>
+            Joins the specified map, ignoring whether or not you are in that map.
+            </summary>
+            <param name="map">The name of the map.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Join(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Joins the specified map, and jumps to the specified cell and pad.
+            </summary>
+            <param name="map">The name of the map.</param>
+            <param name="cell">The cell to jump to.</param>
+            <param name="pad">The pad to jump to.</param>
+            <param name="ignoreCheck">If set to true, the bot will not check if the player is already in the given room.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.JoinGlitched(System.String,System.String,System.String)">
+            <summary>
+            Attempts to join a glitched room (decrements the room number until joined successfully).
+            THIS IS PATCHED. THIS WILL NOW JOIN A NORMAL ROOM (proxies a call to Join).
+            </summary>
+            <param name="map">The name of the map.</param>
+            <param name="cell">The cell to jump to.</param>
+            <param name="pad">The pad to jump to.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Goto(System.String)">
+            <summary>
+            Goes to the specified player (equivilent to using the /goto command).
+            </summary>
+            <param name="name">The name of the player.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.EquipItem(System.Int32)">
+            <summary>
+            Equips the specified item.
+            </summary>
+            <param name="id">The id of the item to equip.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.EquipItem(System.String)">
+            <summary>
+            Equips the specified item. This will do nothing if the item is not in the player's inventory.
+            </summary>
+            <param name="name">The name of the item to equip.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.OpenBank">
+            <summary>
+            Displays the bank to the user.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptPlayer.Rest(System.Boolean,System.Int32)">
+            <summary>
+            Rests the player (equivilent to clicking the rest button on the UI).
+            </summary>
+            <param name="full">If true, the bot will wait until the player's HP and MP are full.</param>
+        </member>
+        <member name="M:RBot.ScriptPlayer.IsBoostActive(RBot.Items.BoostType)">
+            <summary>
+            Checks if the specified boost is active.
+            </summary>
+            <param name="boost">The type of boost to check.</param>
+            <returns>Whether the specified boost is active or not.</returns>
+        </member>
+        <member name="M:RBot.ScriptPlayer.UseBoost(System.Int32)">
+            <summary>
+            Uses the specified boost.
+            </summary>
+            <param name="id">The id of the boost.</param>
+        </member>
+        <member name="P:RBot.ScriptQuests.QuestTree">
+            <summary>
+            A list of the most recently accessed quests.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptQuests.ActiveQuests">
+            <summary>
+            A list of the player's currently active quests.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptQuests.CompletedQuests">
+            <summary>
+            A list of the player's currently active quests which are ready to turn in.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptQuests.Load(System.Int32[])">
+            <summary>
+            Loads the specified quest.
+            </summary>
+            <param name="ids">The id(s) of the quests to load.</param>
+        </member>
+        <member name="M:RBot.ScriptQuests.EnsureLoad(System.Int32)">
+            <summary>
+            Loads the quest with the specified id and waits until it's in the quest tree.
+            </summary>
+            <param name="id">The ID of the quest to load.</param>
+            <returns>The quest with the given ID.</returns>
+        </member>
+        <member name="M:RBot.ScriptQuests.TryGetQuest(System.Int32,RBot.Quests.Quest@)">
+            <summary>
+            Tries to get the quest with the given ID if it is loaded.
+            </summary>
+            <param name="id">The ID of the quest to get.</param>
+            <param name="quest">The quest object to set as the result.</param>
+            <returns>True if the quest is loaded and quest was set succesfully.</returns>
+        </member>
+        <member name="M:RBot.ScriptQuests.Accept(System.Int32)">
+            <summary>
+            Accepts the specified quest.
+            </summary>
+            <param name="id">The id of the quest.</param>
+        </member>
+        <member name="M:RBot.ScriptQuests.EnsureAccept(System.Int32,System.Int32)">
+            <summary>
+            Tries to accept a quest until it is successfully accepted.
+            </summary>
+            <param name="id">The id of the quest.</param>
+            <param name="tries">The maximum number of tries before giving up.</param>
+        </member>
+        <member name="M:RBot.ScriptQuests.Complete(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Attempts to turn in the specified quest.
+            </summary>
+            <param name="id">The id of the quest.</param>
+            <param name="itemId">The id of the item chosen when the quest is turned in.</param>
+            <param name="special">Determines whether the quest is marked 'special' or not.</param>
+            <remarks>The itemId parameter can be used to acquire a particular item when there is a choice of rewards from the quest. For example, in the Voucher Item: Totem of Nulgath quest, you are given the choice of getting a Totem of Nulgath or 10 Gems of Nulgath.</remarks>
+        </member>
+        <member name="M:RBot.ScriptQuests.EnsureComplete(System.Int32,System.Int32,System.Boolean,System.Int32)">
+            <summary>
+            Tries to turn in the specified quest until it is successfully turned in (no longer in progress).
+            </summary>
+            <param name="id">The id of the quest.</param>
+            <param name="itemId">The id of the item chosen when the quest is turned in.</param>
+            <param name="special">Determines whether the quest is marked 'special' or not.</param>
+            <param name="tries">The maximum number of tries before giving up.</param>
+        </member>
+        <member name="M:RBot.ScriptQuests.IsInProgress(System.Int32)">
+            <summary>
+            Checks if the specified quest is currently in progress.
+            </summary>
+            <param name="id">The id of the quest.</param>
+            <returns>Whether the specified quest is in progress.</returns>
+        </member>
+        <member name="M:RBot.ScriptQuests.CanComplete(System.Int32)">
+            <summary>
+            Checks if the specified quest can be turned in.
+            </summary>
+            <param name="id">The id of the quest.</param>
+            <returns>Whether the specified quest is ready to turn in or not.</returns>
+        </member>
+        <member name="M:RBot.ScriptQuests.IsDailyComplete(System.Int32)">
+            <summary>
+            Checks if the specified quest is a completed daily quest.
+            </summary>
+            <param name="id">The id of the quest.</param>
+            <returns>Whether or not the specified quest is a daily quest that the player has already completed.</returns>
+        </member>
+        <member name="P:RBot.ScriptRuntimeVars.RequiredItems">
+            <summary>
+            A list of required items that will not be banked via BankAllCoinItems. This method also moves the item from the bank to inventory.
+            </summary>
+            <remarks>The bank must be loaded for this to work properly.</remarks>
+        </member>
+        <member name="P:RBot.ScriptRuntimeVars.BankLoaded">
+            <summary>
+            A boolean indicating whether the player's bank is loaded or not. This resets on relogin.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptRuntimeVars.Require(System.String)">
+            <summary>
+            Marks the specified item as required. It is moved from the bank to the inventory and will not be moved into the bank via BankAllCoinItems.
+            </summary>
+            <param name="item">The item to mark as required.</param>
+        </member>
+        <member name="P:RBot.ScriptShops.ShopItems">
+            <summary>
+            A list of items that were available in the last loaded shop.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptShops.IsShopLoaded">
+            <summary>
+            A boolean indicated whether a shop is currently loaded or not.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptShops.ShopID">
+            <summary>
+            Gets the currently (or last loaded) shop id.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptShops.ShopName">
+            <summary>
+            Gets the currently (or last loaded) shop's name.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptShops.MergeItems">
+            <summary>
+            Gets a list of items from the currently loaded merge shop.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptShops.Load(System.Int32)">
+            <summary>
+            Loads the specified shop in game.
+            </summary>
+            <param name="id">The id of the shop to be loaded.</param>
+            <remarks>Loading invalid shop ids will get you kicked. Be sure to only use updated/recent lists.</remarks>
+        </member>
+        <member name="M:RBot.ScriptShops.BuyItem(System.Int32,System.String)">
+            <summary>
+            Buys the specified item from the shop with the specified id.
+            </summary>
+            <param name="shopId">The shop to buy the item from.</param>
+            <param name="name">The name of the item to buy.</param>
+            <remarks>This loads the shop, waits until it is fully loaded, and then sends the buy item request.</remarks>
+        </member>
+        <member name="M:RBot.ScriptShops.BuyItem(System.String)">
+            <summary>
+            Buys the specified item from the currently loaded shop.
+            </summary>
+            <param name="name">The name of the item to buy.</param>
+        </member>
+        <member name="M:RBot.ScriptShops.SellItem(System.String)">
+            <summary>
+            Sells the specified item.
+            </summary>
+            <param name="name">The name of the item to sell.</param>
+        </member>
+        <member name="M:RBot.ScriptShops.LoadHairShop(System.Int32)">
+            <summary>
+            Loads the specified hair shop in game.
+            </summary>
+            <param name="id">The id of the hair shop to be loaded.</param>
+        </member>
+        <member name="M:RBot.ScriptShops.LoadArmourCustomizer">
+            <summary>
+            Loads the armour customizer interface.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptSkills.OverrideProvider">
+            <summary>
+            This provider is always used over any set through SetProvider.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptSkills.BaseProvider">
+            <summary>
+            The default provider used if no override is set. Calling ScriptSkills#Add will add to this provider.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptSkills.TimerRunning">
+            <summary>
+            Determines whether the skill timer is currently running.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptSkills.SkillTimer">
+            <summary>
+            The interval, in milliseconds, at which to use skills, if they are available.
+            </summary>
+        </member>
+        <member name="P:RBot.ScriptSkills.SkillTimeout">
+            <summary>
+            The timeout in multiples of SkillTimer milliseconds before skipping the current unavailable skill when using SkillMode.Wait.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptSkills.StartTimer">
+            <summary>
+            Starts the skill timer which uses the registered skills at the set interval. <see cref="P:RBot.ScriptSkills.SkillTimer" />
+            </summary>
+            <remarks>The skill timer is automatically stopped (and its thread destroyed) when the bot is stopped.</remarks>
+        </member>
+        <member name="M:RBot.ScriptSkills.StopTimer">
+            <summary>
+            Stops the skill timer.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptSkills.SetProvider(RBot.Skills.ISkillProvider)">
+            <summary>
+            Sets the current skill provider.
+            </summary>
+            <param name="provider"></param>
+        </member>
+        <member name="M:RBot.ScriptSkills.Add(System.Int32,System.Single)">
+            <summary>
+            Registers the specified skill to be used by the timer.
+            </summary>
+            <param name="index">The index of the skill to be added to the timer. This ranges from 1 to 4.</param>
+            <param name="useThresh">The threshhold in which the skill should be used. This is a value representing the ratio between the player's current health and maximum health. A useThresh of 0.8 would cause the skill to be used when the player's health is below 80%.</param>
+            <remarks>It is important that skills are not added while the skill timer is running, or a concurrency exception is likely to occur.</remarks>
+        </member>
+        <member name="M:RBot.ScriptSkills.Add(System.Int32,RBot.Skills.UseRules.UseRule)">
+            <summary>
+            Registers the specified skill to be used by the timer with the specified use rule.
+            </summary>
+            <param name="index">The index of the skill to add to the timer. This ranges from 1 to 4.</param>
+            <param name="rule">The rule used to determine whether or not this skill should be used.</param>
+        </member>
+        <member name="M:RBot.ScriptSkills.Remove(System.Int32)">
+            <summary>
+            Removes a skill from the skill timer.
+            </summary>
+            <param name="index">The index of the skill to be removed from the timer. This ranges from 1 to 4.</param>
+            <remarks>It is important that skills are not removed while the skill timer is running, or a concurrency exception is likely to occur.</remarks>
+        </member>
+        <member name="M:RBot.ScriptSkills.Clear">
+            <summary>
+            Clears all skills from the skill timer.
+            </summary>
+            <remarks>It is important that skills are not cleared while the skill timer is running, or a concurrency exception is likely to occur.</remarks>
+        </member>
+        <member name="M:RBot.ScriptSkills.UseBaseProvider">
+            <summary>
+            Sets the current skill provider to the base provider and restarts the skill timer.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptSkills.LoadSkills(System.String)">
+            <summary>
+            Loads skills from the specified skills xml file.
+            </summary>
+            <param name="xml">The skill definition file path.</param>
+        </member>
+        <member name="M:RBot.ScriptSkills.StartSkills(System.String)">
+            <summary>
+            Loads the specified skill definition file and restarts the skill timer.
+            </summary>
+            <param name="xml">The skill definition file path.</param>
+        </member>
+        <member name="M:RBot.ScriptSkills.LoadPattern(System.String)">
+            <summary>
+            Loads skills from the specified skill pattern definition file.
+            </summary>
+            <param name="def">The skill pattern definition file path.</param>
+        </member>
+        <member name="M:RBot.ScriptSkills.StartPattern(System.String)">
+            <summary>
+            Loads the specified skill pattern definition file and restarts the skill timer.
+            </summary>
+            <param name="def">The skill pattern definition file path.</param>
+        </member>
+        <member name="F:RBot.ScriptWait.WAIT_SLEEP">
+            <summary>
+            The duration, in milliseconds, for which the thread will sleep before re-checking whether the awaited condition is met.
+            </summary>
+        </member>
+        <member name="M:RBot.ScriptWait.ForPlayerPosition(System.Single,System.Single,System.Int32)">
+            <summary>
+            Waits until the player has reached a specified position.
+            </summary>
+            <param name="x">The x-coordinate the player should be at.</param>
+            <param name="y">The y-coordinate the player should be out.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForCombatExit(System.Int32)">
+            <summary>
+            Waits until the player is no longer in combat.
+            </summary>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForMonsterDeath(System.Int32)">
+            <summary>
+            Waits until the currently targeted monster has been killed.
+            </summary>
+            <remarks>This actually waits for the player to have no target selected, so may not accurately reflect when the current monster is killed.</remarks>
+        </member>
+        <member name="M:RBot.ScriptWait.ForMonsterSpawn(System.String,System.Int32)">
+            <summary>
+            Waits until the specified monster is present in the current cell.
+            </summary>
+            <param name="name">The name of the monster to wait for.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP / 2 milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForFullyRested(System.Int32)">
+            <summary>
+            Waits until the player is fully rested (has maximum HP and mana).
+            </summary>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForMapLoad(System.String,System.Int32)">
+            <summary>
+            Waits until a map is fully loaded.
+            </summary>
+            <param name="map">The name of the map to wait for.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+            <returns>Whether or not the timeout was reached.</returns>
+        </member>
+        <member name="M:RBot.ScriptWait.ForCellChange(System.String)">
+            <summary>
+            Waits for the current cell to change to the specified one.
+            </summary>
+            <param name="cell">The name of the cell to wait for.</param>
+            <remarks>Changing between cells should be instant, so this wait is usually not necessary at all.</remarks>
+        </member>
+        <member name="M:RBot.ScriptWait.ForPickup(System.String,System.Int32)">
+            <summary>
+            Waits for a drop of the specified item to be picked up.
+            </summary>
+            <param name="item">The name of the item to wait for.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+            <remarks>This actually waits for no drops of the specified item to be available, so can be used even when you do not expect the drop to exist.</remarks>
+        </member>
+        <member name="M:RBot.ScriptWait.ForDrop(System.String,System.Int32)">
+            <summary>
+            Waits for a drop of the specified item to exist.
+            </summary>
+            <param name="item">The name of the item to wait for.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForItemBuy(System.Int32)">
+            <summary>
+            Waits for an item to be bought.
+            </summary>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForItemSell(System.Int32)">
+            <summary>
+            Waits for an item to be sold.
+            </summary>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForItemEquip(System.Int32,System.Int32)">
+            <summary>
+            Waits for the specified item to be equipped.
+            </summary>
+            <param name="id">The id of the item to wait for.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForItemEquip(System.String,System.Int32)">
+            <summary>
+            Waits for the specified item to be equipped.
+            </summary>
+            <param name="item">The name of the item to wait for.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForBankToInventory(System.String,System.Int32)">
+            <summary>
+            Waits for the specified item to have moved from the bank to the main inventory.
+            </summary>
+            <param name="item">The name of the item to wait for.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForInventoryToBank(System.String,System.Int32)">
+            <summary>
+            Waits for the specified item to have moved from the main inventory to the bank.
+            </summary>
+            <param name="item">The name of the item to wait for.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForBankLoad(System.Int32)">
+            <summary>
+            Waits for the bank to be loaded. If the bank is already loaded, this method does not wait at all.
+            </summary>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForQuestAccept(System.Int32,System.Int32)">
+            <summary>
+            Waits for the specified quest to be accepted.
+            </summary>
+            <param name="id">The id of the quest to be accepted.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForQuestComplete(System.Int32,System.Int32)">
+            <summary>
+            Waits for the specified quest to be completed.
+            </summary>
+            <param name="id">The id of the quest to be completed.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+            <remarks>This actually waits until the quest is no longer in progress so does not guarentee that the quest has been completed; it could have never been accepted in the first place.</remarks>
+        </member>
+        <member name="M:RBot.ScriptWait.For(System.Func{System.Object},System.Object,System.Int32)">
+            <summary>
+            Waits for the specified function to return the specified value.
+            </summary>
+            <param name="func">The function to poll.</param>
+            <param name="val">The value to wait for.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForTrue(System.Func{System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            Waits for the specified function to return true.
+            </summary>
+            <param name="pred">The function to poll.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+            <param name="sleepOverride">The time to sleep between polling the predicate function (-1 = WAIT_SLEEP).</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForTrue(System.Func{System.Boolean},System.Action,System.Int32,System.Int32)">
+            <summary>
+            Waits for the specified function to return true.
+            </summary>
+            <param name="pred">The function to poll.</param>
+            <param name="loopFunc">A function to run in between polling the predicate function.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP or sleepOverride milliseconds) before the wait is cancelled.</param>
+            <param name="sleepOverride">The time to sleep between polling the predicate function (-1 = WAIT_SLEEP).</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForActionCooldown(RBot.ScriptWait.GameActions,System.Int32)">
+            <summary>
+            Waits for the specified game action to be available.
+            </summary>
+            <param name="action">The game action to wait for.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.ForActionCooldown(System.String,System.Int32)">
+            <summary>
+            Waits for the specified game action (as a string) to be available.
+            </summary>
+            <param name="action">The game action to wait for.</param>
+            <param name="timeout">The number of times the thread should be slept (for WAIT_SLEEP milliseconds) before the wait is cancelled.</param>
+        </member>
+        <member name="M:RBot.ScriptWait.IsCooledDown(RBot.ScriptWait.GameActions)">
+            <summary>
+            Checks whether the given game action is cooled down or not.
+            </summary>
+            <param name="action">The game action to check.</param>
+            <returns>True if the given game action has cooled down, false otherwise.</returns>
+        </member>
+        <member name="M:RBot.ScriptWait.IsCooledDown(System.String)">
+            <summary>
+            Checks whether the given game action is cooled down or not.
+            </summary>
+            <param name="action">The game action to check.</param>
+            <returns>True if the given game action has cooled down, false otherwise.</returns>
+        </member>
+        <member name="T:RBot.ScriptWait.GameActions">
+            <summary>
+            An enumeration of actions that the game requires to be cooled down before use.
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptWait.GameActions.LoadShop">
+            <summary>
+            Loading a shop.
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptWait.GameActions.LoadEnhShop">
+            <summary>
+            Loading an enhancement shop.
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptWait.GameActions.LoadHairShop">
+            <summary>
+            Loading a hair shop.
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptWait.GameActions.EquipItem">
+            <summary>
+            Equipping an item.
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptWait.GameActions.UnequipItem">
+            <summary>
+            Unequipping an ite.
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptWait.GameActions.BuyItem">
+            <summary>
+            Buying an item.
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptWait.GameActions.SellItem">
+            <summary>
+            Selling an item.
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptWait.GameActions.GetMapItem">
+            <summary>
+            Getting a map item (i.e. via the getMapItem packet).
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptWait.GameActions.TryQuestComplete">
+            <summary>
+            Sending a quest completion packet.
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptWait.GameActions.AcceptQuest">
+            <summary>
+            Accepting a quest.
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptWait.GameActions.DoIA">
+            <summary>
+            I don't know... Ask Biney.
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptWait.GameActions.Rest">
+            <summary>
+            Resting.
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptWait.GameActions.Who">
+            <summary>
+            I don't know...
+            </summary>
+        </member>
+        <member name="F:RBot.ScriptWait.GameActions.Transfer">
+            <summary>
+            Joining another map.
+            </summary>
+        </member>
+        <member name="T:RBot.Servers.Server">
+            <summary>
+            A class holding information about a game server.
+            </summary>
+        </member>
+        <member name="P:RBot.Servers.Server.Name">
+            <summary>
+            The name of the game server.
+            </summary>
+        </member>
+        <member name="P:RBot.Servers.Server.IP">
+            <summary>
+            The IP address of the game server.
+            </summary>
+        </member>
+        <member name="P:RBot.Servers.Server.ChatLevel">
+            <summary>
+            The chat level of this server (canned = 0, free = 2).
+            </summary>
+        </member>
+        <member name="P:RBot.Servers.Server.Port">
+            <summary>
+            The port this server listens on.
+            </summary>
+        </member>
+        <member name="P:RBot.Servers.Server.Online">
+            <summary>
+            Indicates whether or not the server is online.
+            </summary>
+        </member>
+        <member name="P:RBot.Servers.Server.Lang">
+            <summary>
+            The language of this server (en/pt).
+            </summary>
+        </member>
+        <member name="P:RBot.Servers.Server.PlayerCount">
+            <summary>
+            The number of players currently on the server.
+            </summary>
+        </member>
+        <member name="P:RBot.Servers.Server.Upgrade">
+            <summary>
+            Indicates whether this is an upgrade only server.
+            </summary>
+        </member>
+        <member name="T:RBot.Servers.ServerList">
+            <summary>
+            Holds a list of game servers.
+            </summary>
+            <remarks>This can only be used once the user has logged in.</remarks>
+        </member>
+        <member name="P:RBot.Servers.ServerList.LastServerIP">
+            <summary>
+            The name of the last server the player was connected to.
+            </summary>
+        </member>
+        <member name="P:RBot.Servers.ServerList.Servers">
+            <summary>
+            The list of available game servers.
+            </summary>
+        </member>
+        <member name="P:RBot.Shops.ShopItem.ShopItemID">
+            <summary>
+            The shop specific item id of this item.
+            </summary>
+        </member>
+        <member name="P:RBot.Shops.ShopItem.Cost">
+            <summary>
+            The cost of the item.
+            </summary>
+        </member>
+        <member name="F:RBot.SkillRuleForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.SkillRuleForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.SkillRuleForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.SkillsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.SkillsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.SkillsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.PatternSkillProvider.Root">
+            <summary>
+            The root command of this pattern skill provider.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.PatternSkillProvider.ResetOnTarget">
+            <summary>
+            If true, the pattern provider will reset when a new monster is targetted. This is true by default.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.ID">
+            <summary>
+            The ID of the skill.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.ActID">
+            <summary>
+            The action ID of the skill.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.Damage">
+            <summary>
+            The damage value of the skill.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.Icon">
+            <summary>
+            The icon key of the skill.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.Auto">
+            <summary>
+            Indicates if the skill is an auto attack.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.Name">
+            <summary>
+            The name of the skill.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.Description">
+            <summary>
+            The description of the skill.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.Range">
+            <summary>
+            The range of the skill.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.MP">
+            <summary>
+            The MP consumed by using this skill.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.IsOk">
+            <summary>
+            Indicates if the skill is OK (idk what this is).
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo._Anim">
+            <summary>
+            The animation list of this skill as a string.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.Animations">
+            <summary>
+            The animation list of this skill as an array.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.Type">
+            <summary>
+            The type of the skill.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.MinTargets">
+            <summary>
+            The minimum number of targets this skill must be used on.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.MaxTargets">
+            <summary>
+            The maximum number of targets this skill can be used on.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.Cooldown">
+            <summary>
+            The cooldown time of this skill in ms.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.Locked">
+            <summary>
+            Indicates if this skill is locked.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.SkillInfo.LastUse">
+            <summary>
+            The timestamp of when this skill was last used.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.ISkillProvider.CanSerialize">
+            <summary>
+            Indicates if this skill provider can be saved to a file.
+            </summary>
+        </member>
+        <member name="M:RBot.Skills.ISkillProvider.ShouldUseSkill(RBot.ScriptInterface)">
+            <summary>
+            This method should return true if the bot should attempt to use a skill at the given time.
+            </summary>
+            <returns>Whether or not the bot should attempt to use a skill.</returns>
+        </member>
+        <member name="M:RBot.Skills.ISkillProvider.GetNextSkill(RBot.ScriptInterface,RBot.Skills.SkillMode@)">
+            <summary>
+            This method should return the index of the next skill the bot should try and use. The mode parameter should be set to indicate how the skill should be used.
+            </summary>
+            <param name="mode">The mode that the skill should be used in.</param>
+            <returns>The index of the skill to be used.</returns>
+        </member>
+        <member name="M:RBot.Skills.ISkillProvider.OnTargetReset(RBot.ScriptInterface)">
+            <summary>
+            This method is called when the target is reset/changed.
+            </summary>
+        </member>
+        <member name="M:RBot.Skills.ISkillProvider.Stop(RBot.ScriptInterface)">
+            <summary>
+            This method is called when the skill timer is stopped.
+            </summary>
+        </member>
+        <member name="M:RBot.Skills.ISkillProvider.Load(System.String)">
+            <summary>
+            Loads this skill provider from the given file.
+            </summary>
+            <param name="file">The file to load this provider from.</param>
+        </member>
+        <member name="M:RBot.Skills.ISkillProvider.Save(System.String)">
+            <summary>
+            Saves this skill provider to the given file.
+            </summary>
+            <param name="file">The file to save this provider to.</param>
+        </member>
+        <member name="F:RBot.Skills.SkillMode.Optimistic">
+            <summary>
+            Assumes the skill is used when it should be.
+            </summary>
+        </member>
+        <member name="F:RBot.Skills.SkillMode.Wait">
+            <summary>
+            Waits for the skill to be available before using it.
+            </summary>
+        </member>
+        <member name="T:RBot.Skills.UseRules.CombinedUseRule">
+            <summary>
+            A use rule that combines the result of multiple rules in the specified way.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.UseRules.CombinedUseRule.Rule">
+            <summary>
+            The rule used to combine the results of the rule set.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.UseRules.CombinedUseRule.Not">
+            <summary>
+            Determines whether or not the combined result should be notted (inversed).
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.UseRules.CombinedUseRule.Rules">
+            <summary>
+            The set of rules whose results should be combined.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.UseRules.CombinedUseRule.This">
+            <summary>
+            This combined use rule.
+            </summary>
+        </member>
+        <member name="M:RBot.Skills.UseRules.CombinedUseRule.Combine(RBot.Skills.UseRules.UseRule)">
+            <summary>
+            Combines the specified rule to this combined rule set.
+            </summary>
+            <param name="rule">The rule to combine with this rule set.</param>
+            <returns>This instance of CombinedUseRule (so you can chain Combine calls).</returns>
+        </member>
+        <member name="T:RBot.Skills.UseRules.CombinedUseRule.CombineRule">
+            <summary>
+            The rules that can be used to combine the results of the rule set.
+            </summary>
+        </member>
+        <member name="F:RBot.Skills.UseRules.CombinedUseRule.CombineRule.And">
+            <summary>
+            The results of the rules will undergo a logical AND.
+            </summary>
+        </member>
+        <member name="F:RBot.Skills.UseRules.CombinedUseRule.CombineRule.Or">
+            <summary>
+            The results of the rules will undergo a logical OR.
+            </summary>
+        </member>
+        <member name="F:RBot.Skills.UseRules.CombinedUseRule.CombineRule.Xor">
+            <summary>
+            The results of the rules will undergo a logical XOR (exclusive or).
+            </summary>
+        </member>
+        <member name="T:RBot.Skills.UseRules.CustomUseRule">
+            <summary>
+            A class which can be used to define custom use rules by writing a custom method.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.UseRules.CustomUseRule.CustomCheck">
+            <summary>
+            The method delegate used to check if the skill should be used or not.
+            </summary>
+        </member>
+        <member name="T:RBot.Skills.UseRules.HealthUseRule">
+            <summary>
+            A rule which bases whether or not the skill should be used on the player's current health.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.UseRules.HealthUseRule.MinHealth">
+            <summary>
+            The minimum health (as a ratio of current to max, from 0 to 1) at which the skill can be used.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.UseRules.HealthUseRule.MaxHealth">
+            <summary>
+            The maximum health (as a ratio of current to max, from 0 to 1) at which the skill can be used.
+            </summary>
+        </member>
+        <member name="T:RBot.Skills.UseRules.ManaUseRule">
+            <summary>
+            A rule which bases whether or not the skill should be used on the player's current mana.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.UseRules.ManaUseRule.MinMana">
+            <summary>
+            The minimum mana (as a ratio of current to max, from 0 to 1) at which the skill can be used.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.UseRules.ManaUseRule.MaxMana">
+            <summary>
+            The maximum mana (as a ratio of current to max, from 0 to 1) at which the skill can be used.
+            </summary>
+        </member>
+        <member name="T:RBot.Skills.UseRules.UseRule">
+            <summary>
+            A base class extended to use a set of rules to determine whether a skill should be used or not.
+            </summary>
+        </member>
+        <member name="P:RBot.Skills.UseRules.UseRule.Always">
+            <summary>
+            A rule which always allows the skill to be used.
+            </summary>
+        </member>
+        <member name="M:RBot.Skills.UseRules.UseRule.ShouldUse(RBot.ScriptInterface)">
+            <summary>
+            Determines whether the skill should be used or not.
+            </summary>
+            <param name="bot">The current ScriptInterface instance.</param>
+            <returns>Whether or not the skill should be used.</returns>
+        </member>
+        <member name="M:RBot.Skills.UseRules.UseRule.LoadXml(System.Xml.XmlElement)">
+            <summary>
+            Loads this rule from an xml element.
+            </summary>
+            <param name="e">The element to load this rule from.</param>
+        </member>
+        <member name="M:RBot.Skills.UseRules.UseRule.SaveXml(System.Xml.XmlWriter)">
+            <summary>
+            Saves this rule to an xml writer.
+            </summary>
+            <param name="writer">The xml writer to write to.</param>
+        </member>
+        <member name="F:RBot.StatsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.StatsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.StatsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:RBot.StrategyBuilderForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.StrategyBuilderForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.StrategyBuilderForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:RBot.Strategy.BuyItemStrategy">
+            <summary>
+            Buys an item from a shop to obtain it.
+            </summary>
+        </member>
+        <member name="P:RBot.Strategy.BuyItemStrategy.Map">
+            <summary>
+            The map to join before loading the shop to buy the item.
+            </summary>
+        </member>
+        <member name="P:RBot.Strategy.BuyItemStrategy.ShopID">
+            <summary>
+            The ID of the shop to load and buy the item from.
+            </summary>
+        </member>
+        <member name="M:RBot.Strategy.BuyItemStrategy.Execute(RBot.ScriptInterface,System.Int32)">
+            <summary>
+            Executes the strategy by joining the map (if it's not null), loading the shop, and buying the specified item the required number of times.
+            </summary>
+            <returns>True if the player's inventory contains the required quantity of the given item after the strategy has executed.</returns>
+        </member>
+        <member name="T:RBot.Strategy.DropStrategy">
+            <summary>
+            Obtains an item by hunting a monster or monsters that drop it.
+            </summary>
+        </member>
+        <member name="P:RBot.Strategy.DropStrategy.Map">
+            <summary>
+            The map where the monsters dropping the item reside.
+            </summary>
+        </member>
+        <member name="P:RBot.Strategy.DropStrategy.Monsters">
+            <summary>
+            The name(s) of the monster(s) which drop the item. The names are separated by a | character.
+            </summary>
+        </member>
+        <member name="M:RBot.Strategy.DropStrategy.Execute(RBot.ScriptInterface,System.Int32)">
+            <summary>
+            Executes the drop strategy by joining the map and using HuntForItems combining the DropAggregate list and the item this strategy is meant to obtain.
+            </summary>
+            <param name="required">The number of the item to acquire.</param>
+            <returns>True always as HuntForItems' reliability is assumed.</returns>
+        </member>
+        <member name="T:RBot.Strategy.ItemStrategy">
+            <summary>
+            A class with virtual methods that is used to define a strategy which is followed to obtain a given item in a given quantity.
+            </summary>
+        </member>
+        <member name="P:RBot.Strategy.ItemStrategy.Item">
+            <summary>
+            The name of the item that this strategy obtains.
+            </summary>
+        </member>
+        <member name="P:RBot.Strategy.ItemStrategy.TempItem">
+            <summary>
+            Whether or not the item obtained by this strategy is a temporary item.
+            </summary>
+        </member>
+        <member name="P:RBot.Strategy.ItemStrategy.Preference">
+            <summary>
+            The preference of this strategy. Strategies with higher preferences are chosen first.
+            </summary>
+        </member>
+        <member name="M:RBot.Strategy.ItemStrategy.CanUse(RBot.ScriptInterface)">
+            <summary>
+            Checks whether this strategy can be used in the given circumstances.
+            THIS METHOD IS CURRENTLY UNUSED.
+            </summary>
+            <returns>True if this strategy can be used, false otherwise.</returns>
+        </member>
+        <member name="M:RBot.Strategy.ItemStrategy.Execute(RBot.ScriptInterface,System.Int32)">
+            <summary>
+            Called to execute this strategy and obtain the required item in the required quantity.
+            </summary>
+            <param name="required">The quantity of the item to obtain.</param>
+            <returns>True if the item was successfully obtained, false otherwise.</returns>
+        </member>
+        <member name="M:RBot.Strategy.ItemStrategy.GetRequiredItems(RBot.ScriptInterface)">
+            <summary>
+            Gets a list of required items for this strategy. The list returned is used to build the drop aggregate when StrategyDatabase#AggregateDrops is called.
+            </summary>
+            <returns>A list of items to add to the drop aggregate.</returns>
+        </member>
+        <member name="T:RBot.Strategy.MergeItemStrategy">
+            <summary>
+            Obtains an item by buying it from a merge shop.
+            This strategy recursively calls StrategyDatabase#Obtain to obtain merge requirements.
+            </summary>
+        </member>
+        <member name="M:RBot.Strategy.MergeItemStrategy.Execute(RBot.ScriptInterface,System.Int32)">
+            <summary>
+            Executes the merge item strategy by joining the map (if it's not null), loading the merge shop, and buying the specified merge item until the required amount is in the player's inventory.
+            </summary>
+            <param name="bot"></param>
+            <param name="required"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RBot.Strategy.MergeItemStrategy.GetRequiredItems(RBot.ScriptInterface)">
+            <summary>
+            Gets a list of items required to merge the item this strategy obtains.
+            </summary>
+            <returns>The list of required items for this merge.</returns>
+        </member>
+        <member name="T:RBot.Strategy.INavigator">
+            <summary>
+            An interface implemented to perform custom navigation logic to transfer a player to a map.
+            </summary>
+        </member>
+        <member name="M:RBot.Strategy.INavigator.Navigate(RBot.ScriptInterface)">
+            <summary>
+            This method should implement the logic to transfer the player to a map.
+            </summary>
+        </member>
+        <member name="T:RBot.Strategy.DefaultNavigator">
+            <summary>
+            A default navigator implementation that simply calls ScriptPlayer#Join to join the given map.
+            </summary>
+        </member>
+        <member name="P:RBot.Strategy.DefaultNavigator.Map">
+            <summary>
+            The name of the map to join.
+            </summary>
+        </member>
+        <member name="P:RBot.Strategy.DefaultNavigator.Cell">
+            <summary>
+            The name of the cell to jump to when the map is joined.
+            </summary>
+        </member>
+        <member name="P:RBot.Strategy.DefaultNavigator.Pad">
+            <summary>
+            The name of the pad to jump to when the map is joined.
+            </summary>
+        </member>
+        <member name="M:RBot.Strategy.DefaultNavigator.Navigate(RBot.ScriptInterface)">
+            <summary>
+            Calls ScriptPlayer#Join in order to join the given map.
+            </summary>
+        </member>
+        <member name="T:RBot.Strategy.QuestStrategy">
+            <summary>
+            Obtains an item by completing a quest of which it is a reward.
+            This strategy recursively calls StrategyDatabase#Obtain to fulfil the quest's completion requirements.
+            </summary>
+        </member>
+        <member name="P:RBot.Strategy.QuestStrategy.QuestID">
+            <summary>
+            The ID of the quest to complete to obtain the item.
+            </summary>
+        </member>
+        <member name="M:RBot.Strategy.QuestStrategy.Execute(RBot.ScriptInterface,System.Int32)">
+            <summary>
+            Executes this strategy by obtaining the items required to turn in the quest and then turning in the quest until the required quantity of the item is obtained.
+            This strategy calls StrategyDatabase#PickupAggregate every time the quest is turned in.
+            </summary>
+            <param name="required">The quantity of the item to obtain by completing the quest.</param>
+            <returns>False if the quest cannot be accepted (if the player does not have the required items to accept it) or if there is no strategy registered to obtain a requirement or if the registered strategy fails for any requirement. True otherwise.</returns>
+        </member>
+        <member name="M:RBot.Strategy.QuestStrategy.GetRequiredItems(RBot.ScriptInterface)">
+            <summary>
+            Gets a list of items required to turn in the quest.
+            </summary>
+            <returns>The list of items required to turn in the quest.</returns>
+        </member>
+        <member name="P:RBot.Strategy.StrategyDatabase.Navigators">
+            <summary>
+            A dictionary mapping room names to custom navigators. Navigators offer a way of transferring a player to a given room.
+            An example of when to use a custom navigator would be for joining tercessuinotlim as this requires first joining citadel.
+            </summary>
+        </member>
+        <member name="P:RBot.Strategy.StrategyDatabase.ItemStrategies">
+            <summary>
+            The list of registered item strategies in the database.
+            </summary>
+        </member>
+        <member name="P:RBot.Strategy.StrategyDatabase.DropAggregate">
+            <summary>
+            A list of drops which is built when AggregateDrops is called. Items in this list are picked up during all strategies' execution.
+            </summary>
+        </member>
+        <member name="M:RBot.Strategy.StrategyDatabase.GetNavigator(System.String)">
+            <summary>
+            Gets the navigator to be used to transfer the player to the given map.
+            </summary>
+            <param name="map">The name of the map.</param>
+            <returns>A navigator which has a Navigate method.  If no custom navigator is defined, a default navigator which makes a call to ScriptPlayer#Join is returned.</returns>
+        </member>
+        <member name="M:RBot.Strategy.StrategyDatabase.GetStrategy(System.String)">
+            <summary>
+            Gets the strategy to obtain the given item with the highest priority.
+            </summary>
+            <param name="item">The name of the item to find a strategy for.</param>
+            <returns>The strategy which can be used to obtain the given item. If no such strategy exists, null is returned.</returns>
+        </member>
+        <member name="M:RBot.Strategy.StrategyDatabase.Register(RBot.Strategy.ItemStrategy)">
+            <summary>
+            Adds the given strategy to the database.
+            </summary>
+            <param name="strat">The strategy to add.</param>
+        </member>
+        <member name="M:RBot.Strategy.StrategyDatabase.RegisterShop(System.Int32,System.String,System.Boolean)">
+            <summary>
+            Loads shop with the given id and registers a BuyItemStrategy for every item in the shop.
+            </summary>
+            <param name="id">The id of the shop to create BuyItemStrategy objects for.</param>
+            <param name="map">The map the player needs to be in to load the shop (prevents disconnects). If this is null, the player will not join a map before loading the shop.</param>
+            <param name="addItems">If true, the merge shop's items are added to the database automatically.</param>
+        </member>
+        <member name="M:RBot.Strategy.StrategyDatabase.RegisterMerge(System.Int32,System.String,System.Boolean)">
+            <summary>
+            Loads the given merge shop and registers a MergeItemStrategy for every item in the shop.
+            </summary>
+            <param name="id">The id of the shop to create MergeItemStrategy objects for.</param>
+            <param name="map">The map the player needs to be in to load the shop (prevents disconnects). If this is null, the player will not join a map before loading the shop.</param>
+            <param name="addItems">If true, the merge shop's items are added to the database automatically.</param>
+        </member>
+        <member name="M:RBot.Strategy.StrategyDatabase.RegisterQuest(System.Int32,System.Boolean)">
+            <summary>
+            Loads the given quest and registers a QuestStrategy for each reward of the quest.
+            </summary>
+            <param name="id">The id of the quest to register.</param>
+            <param name="addRewards">If true, the quest rewards are added to the database automatically.</param>
+            <returns>True if the quest was successfully loaded and registered, false otherwise.</returns>
+        </member>
+        <member name="M:RBot.Strategy.StrategyDatabase.RegisterDrop(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Registers a DropStrategy with the given parameters.
+            </summary>
+            <param name="map">The name of the map where the monster exists.</param>
+            <param name="monsters">The name of the monster(s) (separated by |) to kill for the drop.</param>
+            <param name="drop">The name of the drop obtained through killing the monsters.</param>
+            <param name="temp">Whether or not the drop is a temporary item.</param>
+        </member>
+        <member name="M:RBot.Strategy.StrategyDatabase.GetCachedShop(System.Int32,System.String)">
+            <summary>
+            Gets a cached shop item. Shop items are cached when RegisterShop is called.
+            </summary>
+            <param name="shop">The id of the shop.</param>
+            <param name="name">The name of the cached item to get.</param>
+            <returns>The cached ShopItem object or null if the item was not cached.</returns>
+        </member>
+        <member name="M:RBot.Strategy.StrategyDatabase.GetCachedMerge(System.Int32,System.String)">
+            <summary>
+            Gets a cached merge shop item. Merge shop items are cached when RegisterMerge is called.
+            </summary>
+            <param name="shop">The id of the shop.</param>
+            <param name="name">The name of the cached item to get.</param>
+            <returns>The cached MergeItem object or null if the item was not cached.</returns>
+        </member>
+        <member name="M:RBot.Strategy.StrategyDatabase.GetCachedQuest(System.Int32)">
+            <summary>
+            Gets a cached Quest object. Quests are cached when RegisterQuest is called.
+            </summary>
+            <param name="id">The id of the quest.</param>
+            <returns>The cached Quest object or null if the quest has not been cached.</returns>
+        </member>
+        <member name="M:RBot.Strategy.StrategyDatabase.AggregateDrops(System.String,System.Boolean)">
+            <summary>
+            Aggregates all drops based on all strategies that will be used to obtain the given item.
+            This should be called before Obtain for maximum efficiency. The drop names that are aggregated are picked up (through PickupAggregate) during all strategies' execution.
+            </summary>
+            <param name="item">The name of the item who's strategy to aggregate drops for.</param>
+            <param name="clear">If true, the current drop aggregate is cleared before rebuilding it, otherwise it is added to.</param>
+        </member>
+        <member name="M:RBot.Strategy.StrategyDatabase.PickupAggregate">
+            <summary>
+            Picks up all aggregated drop names in the list generated by AggregateDrops. This is called automatically during each strategy's execution and does not need to be called manually.
+            </summary>
+        </member>
+        <member name="M:RBot.Strategy.StrategyDatabase.Obtain(System.String,System.Int32)">
+            <summary>
+            Obtains the specified item in the specified quantity using the registered strategies with the highest priorities.
+            </summary>
+            <param name="item">The name of the item to obtain.</param>
+            <param name="quantity">The quantity of the item to obtain.</param>
+            <returns>True if the item was successfully obtained through strategies. False if no strategy was found for the given item, or if any intermediate strategy was unsuccessful in its execution.</returns>
+        </member>
+        <member name="M:RBot.Strategy.StrategyDatabase.ClearCache">
+            <summary>
+            Clears the shop and quest cache that is built when calling RegisterShop, RegisterMerge and RegisterQuest.
+            </summary>
+        </member>
+        <member name="F:RBot.UpdatesForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RBot.UpdatesForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RBot.UpdatesForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:RBot.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:RBot.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:RBot.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:RBot.Properties.Resources.BuildDate">
+             <summary>
+               Looks up a localized string similar to 18/05/2020 22:01:21.51 
+            .
+             </summary>
+        </member>
+        <member name="P:RBot.Properties.Resources.DefaultScript">
+             <summary>
+               Looks up a localized string similar to using System;
+            using System.Collections.Generic;
+            using System.Linq;
+            
+            using RBot;
+            using RBot.Items;
+            using RBot.Quests;
+            using RBot.Monsters;
+            using RBot.Shops;
+            
+            public class Script
+            {
+                public void ScriptMain(ScriptInterface bot)
+                {
+                    bot.Options.SafeTimings = true;
+                    bot.Options.RestPackets = true;
+            
+                    bot.Log(&quot;Hello World!&quot;);
+                }
+            }
+            .
+             </summary>
+        </member>
+        <member name="P:RBot.Properties.Resources.rbot">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>

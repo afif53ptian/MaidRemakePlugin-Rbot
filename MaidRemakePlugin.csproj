@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F3AD5FF3-3BE9-4E53-8170-DD952BED9D9A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MaidRemake</RootNamespace>
+    <AssemblyName>MaidRemake_5.1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.ShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RBot\AxInterop.ShockwaveFlashObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Rbot-3.6 Release\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RBot">
+      <HintPath>..\..\Rbot Release\RBot.exe</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="JumpHandler.cs" />
+    <Compile Include="LockedMapHandle\LockedMapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LockedMapHandle\LockedMapForm.Designer.cs">
+      <DependentUpon>LockedMapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WarningHandler.cs" />
+    <Compile Include="RLoader.cs" />
+    <Compile Include="ClassPreset.cs" />
+    <Compile Include="LockedMapHandle\AlternativeMap.cs" />
+    <Compile Include="LowLevelKeyboardHook.cs" />
+    <Compile Include="MaidRemake.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaidRemake.Designer.cs">
+      <DependentUpon>MaidRemake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LockedMapHandle\MessageBoxEx.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LockedMapHandle\LockedMapForm.resx">
+      <DependentUpon>LockedMapForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaidRemake.resx">
+      <DependentUpon>MaidRemake.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
